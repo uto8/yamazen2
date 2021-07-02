@@ -1,0 +1,144 @@
+@charset "utf-8";
+$phone: "only screen and (max-width:640px)";
+$tablet: "only screen and (min-width:641px) and (max-width:959px)";
+$pc: "only screen and (min-width:960px)";
+$blue:#282655;
+
+
+body{
+  @include ieTableSupport;//behavior display-table.htc,if Lte IE7 support
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.pc{
+  display: block !important;
+}
+
+.sp{
+  display: none !important;
+}
+
+
+
+
+@media #{$phone}{
+  .pc{
+    display: none !important;
+  }
+  .sp{
+    display: block !important;
+  }
+}
+
+@mixin fz($size: 16) {
+  font-size: ($size / 10) + rem;
+  // font-family: 'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  font-family: 'Noto Sans JP';
+}
+
+
+body{
+  font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+}
+
+@mixin fz($size: 16) {
+  font-size: ($size / 10) + rem;
+}
+
+#header {
+
+}//#header
+
+#footer {
+  position:relative;
+  background-color:$blue;
+  text-align: center;
+  color:white;
+  padding:0 15px 27px 15px;
+  font-family:"Noto Sans CJK JP";
+  a{
+    color:inherit;
+    text-decoration: inherit;
+  }
+  a:hover{
+    color:inherit;
+    text-decoration:inherit;
+  }
+  h1{
+    text-align: center;
+    transform:translateY(-20px);
+    img{
+      width:213px;
+    }
+  }
+  ul{
+    list-style: none;
+    padding-left:0;
+    display: flex;
+    justify-content: center;
+    li{
+      margin:0 20px;
+      font-size: 16px;
+    }
+    span{
+      display: block;
+      height:30px;
+      width:2px;
+      background-color: white;
+    }
+  }
+  p{
+    margin-bottom:0;
+  }
+  button.footer_btn{
+    background: transparent;
+    border:none;
+    top:-40px;
+    right:50px;
+    width:80px;
+    position:absolute;
+    img{
+      width:100%;
+    }
+  }
+}//#header
+@media #{$phone}{
+  #footer{
+    h1{
+      img{
+        width:150px;
+      }
+    }
+    ul{
+      flex-wrap: wrap;
+      margin-bottom:30px;
+      li{
+        width:100%;
+        text-align: center;
+        margin:0;
+        span{
+          display:none;
+        }
+      }
+    }
+    button.footer_btn{
+      background: transparent;
+      border:none;
+      top:-30px;
+      right:0px;
+      width:70px;
+      position:absolute;
+      img{
+        width:100%;
+      }
+    }
+  }
+}

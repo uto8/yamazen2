@@ -1,0 +1,1127 @@
+@charset "utf-8";
+$phone: "only screen and (max-width:640px)";
+$tablet: "only screen and (min-width:641px) and (max-width:959px)";
+$pc: "only screen and (min-width:960px)";
+//breakpoint setting: example @media #{$hoge}{css propaty}
+
+$blue:#282655;
+html,body{
+  width:100%;
+  padding:0;
+  margin:0;
+  font-family:"ヒラギノ角ゴシック";
+}
+.triangle3{
+  width:0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 30px solid white;
+  margin:0 auto;
+  background-color:#212121 ;
+  transform: translateY(-130px);
+}
+
+section#section01{
+  background-image:url(../images/section01-bg.png);
+  background-size:cover;
+  padding:15px 30px;
+  h1{
+    width:210px;
+    margin-bottom:75px;
+    img{
+      width:100%;
+    }
+  }
+  .sentence{
+    color:white;
+    padding-left:143px;
+    margin-bottom:200px;
+    font-family:"ヒラギノ明朝 Pro";
+    h3{
+      font-size:32px;
+      margin-bottom:30px;
+    }
+    p{
+      font-size:16px;
+    }
+  }
+}
+section#section02{
+  padding-bottom:100px;
+  position:relative;
+  .contact_btn{
+    width:70px;
+    position:absolute;
+    top:0;
+    right:0;
+    transform:translateY(-50px);
+    background:none;
+    border:none;
+    padding:0;
+    img{
+      width:100%;
+    }
+  }
+  .box{
+    .content{
+      justify-content: space-around;
+      display:flex;
+      width:70%;
+      margin:0 auto;
+      margin-bottom:80px;
+      transform:translateY(-50px);
+      .item{
+        width:30%;
+        border:2px solid $blue;
+        .title{
+          background-color:$blue;
+          color:white;
+          padding-top:30px;
+          padding-bottom:15px;
+          padding-right:5px;
+          padding-left:5px;
+          margin-bottom:25px;
+          text-align: center;
+          font-family:"ヒラギノ明朝 Pro";
+          h5{
+            margin:0;
+            font-size: 20px;
+          }
+        }
+        .sentence{
+          padding:0 30px;
+          font-family:"ヒラギノ角ゴシック";
+          img{
+            width:100%;
+            margin-bottom: 15px;
+          }
+          p{
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+  .box2{
+    display:flex;
+    width:70%;
+    margin:0 auto;
+    .img{
+      width:50%;
+      padding:5px;
+      img{
+        width:100%;
+      }
+    }
+    .sentence{
+      width:50%;
+      padding:35px 20px 50px 50px;
+      font-family:"ヒラギノ角ゴシック";
+      h5{
+        font-size: 28px;
+        color:$blue;
+        margin-top:0;
+        margin-bottom:15px;
+        font-family: "ヒラギノ角ゴシックz";
+      }
+      span{
+        background-color:$blue;
+        width:70px;
+        display: block;
+        margin-bottom:35px;
+        height:2px;
+      }
+      p{
+        font-size: 16px;
+        line-height: 1.6;
+      }
+    }
+  }
+}
+section#section03{
+  background-color:#212121;
+  background-image:url(../images/section03-bg.png);
+  background-size: cover;
+  background-position:bottom;
+  color:white;
+  text-align: center;
+  font-family:"ヒラギノ角ゴシック";
+  .inner{
+    background-color: #212121;
+    width:90%;
+    margin:0 auto;
+    height:100%;
+    padding:130px 15px;
+  }
+  .title{
+    margin-bottom:95px;
+    font-family:"ヒラギノ明朝 Pro";
+  }
+  h2{
+    font-size:32px;
+    margin-bottom:30px
+  }
+  span{
+    width:70px;
+    height:2px;
+    background-color:white;
+    margin:auto;
+    display: block;
+    margin-bottom:30px;
+  }
+  p{
+    font-size:16px;
+    margin-bottom:30px;
+  }
+  .content{
+    display:flex;
+    justify-content: space-between;
+    width:70%;
+    margin:0 auto 95px auto;
+    .img{
+      width:45%;
+      img{
+        width:100%;
+      }
+    }
+    .sentence{
+      width:50%;
+      text-align: left;
+      h5{
+        margin-bottom:25px;
+        img{
+          width:50%;
+        }
+      }
+      p{
+        padding-left: 40px;
+        font-size:16px;
+      }
+    }
+  }
+  h4{
+    font-size:28px;
+    margin-bottom:15px;
+  }
+  span{
+    background-color:white;
+    height:2px;
+    margin:auto auto;
+    width:70px;
+    margin-bottom:62px;
+  }
+  .content2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width:70%;
+    margin:auto;
+    .item{
+      border:2px solid white;
+      width:30%;
+      margin:0 auto 30px auto;
+      border-radius:5px;
+      padding:20px;
+      padding-top:0;
+      box-sizing:border-box;
+      title{
+        display: block;
+        font-size: 20px;
+        border-bottom:3px white solid;
+        padding:20px 0;
+        box-sizing:border-box;
+        margin-bottom:20px;
+      }
+      ul{
+        padding:0;
+        list-style: none;
+        text-align: left;
+        li{
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+section#section04{
+  padding:100px 15px;
+  font-family:"ヒラギノ角ゴシック";
+  .title{
+    text-align: center;
+    font-family:"ヒラギノ明朝 Pro";
+    h2{
+      color:$blue;
+      font-size: 32px;
+      line-height:1.7;
+      padding-bottom:20px;
+    }
+    span{
+      height:2px;
+      width:70px;
+      background-color:$blue;
+      margin:auto;
+      display:block;
+      margin-bottom:30px;
+    }
+    p{
+      font-size:16px;
+      line-height:1.6;
+      margin-bottom:100px;
+    }
+  }
+  .box{
+    width:70%;
+    margin:0 auto;
+    .content{
+      h5{
+        color:$blue;
+        border-left:2px solid $blue;
+        font-size:28px;
+        padding-left:20px;
+        font-weight:bold;
+        margin-bottom:40px;
+      }
+      p{
+        margin:0 auto;
+        width:90%;
+        margin-bottom: 20px;
+      }
+      table{
+        width:90%;
+        margin:0 auto;
+        font-size:16px;
+        margin-bottom:23px;
+        color:black;
+        th{
+          font-weight:lighter;
+        }
+        th.num{
+          background-color:#9a9a9a;
+          color:white;
+          text-align: center;
+          font-weight:bold;
+        }
+      }
+      .explain{
+        margin-bottom:100px;
+        display: flex;
+        align-items: center;
+        span{
+          margin-right:20px;
+          width:20px;
+          height:20px;
+          img{
+            width:100%;
+          }
+        }
+        p{
+          margin:0;
+        }
+      }
+    }
+    h2{
+      color:$blue;
+      padding-left:20px;
+      border-left:3px solid $blue;
+    }
+    .content2{
+      width:100%;
+      margin:0 auto;
+      display:flex;
+      .img{
+        width:50%;
+        img{
+          width:100%;
+        }
+      }
+      .sentence{
+        width:50%;
+        padding-top:15px;
+        padding-left:30px;
+        p{
+          font-size:16px;
+        }
+        img{
+          width:100%;
+        }
+      }
+    }
+  }
+}
+section#section05{
+  padding:96px 15px;
+  font-family:"ヒラギノ角ゴシック";
+  h2{
+    color:$blue;
+    text-align: center;
+    font-family:"ヒラギノ明朝 Pro";
+    font-size:32px;
+    line-height:1.7;
+    margin-bottom:35px;
+  }
+  span{
+    height:2px;
+    margin:auto;
+    width:70px;
+    display: block;
+    background-color:$blue;
+  }
+}
+section#section06{
+  h2{
+    font-family:"ヒラギノ明朝 Pro";
+    font-size:32px;
+    text-align: center;
+    color:$blue;
+    margin-bottom:30px;
+  }
+  span{
+    height:2px;
+    width:70px;
+    display:block;
+    background-color:$blue;
+    margin:auto;
+    margin-bottom:30px;
+  }
+  p{
+    text-align:center;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom:40px;
+  }
+  form{
+    width:80%;
+    margin:0 auto;
+    border:2px solid #e6e6e6;
+    padding:0 30px;
+    box-sizing: border-box;
+    .form-group{
+      width:100%;
+      padding:20px 0;
+      border-top:1px solid #e6e6e6;
+      label{
+        box-sizing: border-box;
+      }
+    }
+  }
+}
+
+@media #{$tablet}{
+  section#section01{
+    background-image:url(../images/section01-bg.png);
+    background-size:cover;
+    padding:15px 30px;
+    h1{
+      width:150px;
+      margin-bottom:75px;
+      img{
+        width:100%;
+      }
+    }
+    .sentence{
+      color:white;
+      padding-left:73px;
+      margin-bottom:100px;
+      h3{
+        font-size:25px;
+        margin-bottom:25px;
+      }
+      p{
+        font-size:15px;
+      }
+    }
+  }
+  section#section02{
+    padding-bottom:100px;
+    position:relative;
+    .contact_btn{
+      width:50px;
+      position:absolute;
+      top:0;
+      right:0;
+      transform:translateY(-50px);
+      background:none;
+      border:none;
+      padding:0;
+      img{
+        width:100%;
+      }
+    }
+    .box{
+      .content{
+        justify-content: space-around;
+        display:flex;
+        width:80%;
+        margin:0 auto;
+        margin-bottom:80px;
+        transform:translateY(-50px);
+        .item{
+          width:30%;
+          border:2px solid $blue;
+          .title{
+            background-color:$blue;
+            color:white;
+            padding-top:20px;
+            padding-bottom:10px;
+            padding-right:3px;
+            padding-left:3px;
+            margin-bottom:25px;
+            text-align: center;
+            font-family:"ヒラギノ明朝 Pro";
+            h5{
+              margin:0;
+              font-size: 16px;
+            }
+          }
+          .sentence{
+            padding:0 15px;
+            font-family:"ヒラギノ角ゴシック";
+            img{
+              width:100%;
+              margin-bottom: 15px;
+            }
+            p{
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+    .box2{
+      display:flex;
+      flex-wrap:wrap;
+      width:80%;
+      margin:0 auto;
+      .img{
+        width:100%;
+        padding:30px;
+        box-sizing:border-box;
+        img{
+          width:100%;
+        }
+      }
+      .sentence{
+        width:100%;
+        padding:25px 40px 20px 40px;
+        font-family:"ヒラギノ角ゴシック";
+        h5{
+          font-size: 22px;
+          color:$blue;
+          margin-top:0;
+          margin-bottom:15px;
+          font-family: "ヒラギノ角ゴシックz";
+        }
+        span{
+          background-color:$blue;
+          width:70px;
+          display: block;
+          margin-bottom:35px;
+          height:2px;
+        }
+        p{
+          font-size: 14px;
+          line-height: 1.6;
+        }
+      }
+    }
+  }
+  section#section03{
+    padding:0px 15px;
+    .title{
+      margin-bottom:30px;
+    }
+    h2{
+      font-size:25px;
+      margin-bottom:25px
+    }
+    span{
+      width:70px;
+      height:2px;
+      background-color:white;
+      margin:auto;
+      display: block;
+      margin-bottom:30px;
+    }
+    p{
+      font-size:16px;
+      margin-bottom:30px;
+    }
+    .content{
+      display:flex;
+      justify-content: space-between;
+      width:80%;
+      margin:0 auto 95px auto;
+      .img{
+        width:80%;
+        margin:0 auto 40px auto;
+        img{
+          width:100%;
+        }
+      }
+      .sentence{
+        width:100%;
+        text-align: left;
+        h5{
+          margin-bottom:25px;
+          img{
+            width:30%;
+          }
+        }
+        p{
+          padding-left: 40px;
+          font-size:14px;
+        }
+      }
+    }
+    .content01{
+      flex-wrap: wrap-reverse;
+    }
+    .content02{
+      flex-wrap: wrap;
+    }
+    h4{
+      font-size:22px;
+      margin-bottom:15px;
+    }
+    span{
+      background-color:white;
+      height:2px;
+      margin:auto auto;
+      width:70px;
+      margin-bottom:62px;
+    }
+    .content2{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      width:80%;
+      margin:auto;
+      .item{
+        width:48%;
+        margin:0 auto 30px auto;
+        border-radius:5px;
+        padding:20px;
+        padding-top:0;
+        box-sizing:border-box;
+        title{
+          display: block;
+          font-size: 20px;
+          border-bottom:3px white solid;
+          padding:20px 0;
+          box-sizing:border-box;
+          margin-bottom:20px;
+        }
+        ul{
+          padding:0;
+          list-style: none;
+          text-align: left;
+          li{
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+  section#section04{
+    padding:60px 15px;
+    .title{
+      text-align: center;
+      h2{
+        color:$blue;
+        font-size: 25px;
+        line-height:1.7;
+        padding-bottom:20px;
+      }
+      span{
+        height:2px;
+        width:70px;
+        background-color:$blue;
+        margin:auto;
+        display:block;
+        margin-bottom:20px;
+      }
+      p{
+        font-size:14px;
+        line-height:1.6;
+        margin-bottom:60px;
+      }
+    }
+    .box{
+      width:70%;
+      margin:0 auto;
+      .content{
+        h5{
+          color:$blue;
+          border-left:2px solid $blue;
+          font-size:20px;
+          padding-left:20px;
+          font-weight:bold;
+          margin-bottom:40px;
+        }
+        p{
+          margin:0 auto;
+          width:90%;
+          margin-bottom: 10px;
+        }
+        table{
+          width:90%;
+          margin:0 auto;
+          font-size:14px;
+          margin-bottom:23px;
+          color:black;
+          th{
+            font-weight:lighter;
+          }
+          th.num{
+            background-color:#9a9a9a;
+            color:white;
+            text-align: center;
+            font-weight:bold;
+          }
+        }
+        .explain{
+          display:flex;
+          span{
+            width:20px;
+            height:20px;
+            border-radius: 50%;
+            background-color: $blue;
+            display: block;
+            img{
+              width:100%;
+            }
+          }
+          margin-bottom:100px;
+        }
+      }
+      h2{
+        color:$blue;
+        padding-left:20px;
+        border-left:3px solid $blue;
+      }
+      .content2{
+        width:100%;
+        margin:0 auto;
+        display:flex;
+        flex-wrap: wrap;
+        .img{
+          width:100%;
+          margin-bottom:30px;
+          img{
+            width:100%;
+          }
+        }
+        .sentence{
+          width:100%;
+          padding:15px 20px;
+          p{
+            font-size:16px;
+          }
+          img{
+            width:100%;
+          }
+        }
+      }
+    }
+  }
+  section#section05{
+    padding:56px 15px;
+    font-family:"ヒラギノ角ゴシック";
+    h2{
+      color:$blue;
+      text-align: center;
+      font-family:"ヒラギノ明朝 Pro";
+      font-size:25px;
+      line-height:1.7;
+      margin-bottom:25px;
+    }
+    span{
+      height:2px;
+      margin:auto;
+      width:70px;
+      display: block;
+      background-color:$blue;
+    }
+  }
+  section#section06{
+    h2{
+      font-family:"ヒラギノ明朝 Pro";
+      font-size:25px;
+      text-align: center;
+      color:$blue;
+      margin-bottom:20px;
+    }
+    span{
+      height:2px;
+      width:70px;
+      display:block;
+      background-color:$blue;
+      margin:auto;
+      margin-bottom:30px;
+    }
+    p{
+      text-align:center;
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom:30px;
+    }
+  }
+}
+
+@media #{$phone}{
+  .triangle3{
+    width:0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid white;
+    margin:0 auto;
+    background-color:#212121 ;
+    transform: translateY(-130px);
+  }
+  section#section01{
+    padding:15px 30px;
+    h1{
+      width:100px;
+      margin-bottom:25px;
+      img{
+        width:100%;
+      }
+    }
+    .sentence{
+      padding-left:23px;
+      margin-bottom:30px;
+      h3{
+        font-size:18px;
+        margin-bottom:20px;
+      }
+      p{
+        font-size:14px;
+      }
+    }
+  }
+  section#section02{
+    padding-bottom:100px;
+    position:relative;
+    .contact_btn{
+      width:40px;
+      position:absolute;
+      top:0;
+      right:0;
+      transform:translateY(-70px);
+      background:none;
+      border:none;
+      padding:0;
+      img{
+        width:100%;
+      }
+    }
+    .box{
+      .content{
+        justify-content: space-around;
+        display:flex;
+        flex-wrap: wrap;
+        width:80%;
+        margin:0 auto;
+        margin-bottom:80px;
+        transform:translateY(50px);
+        .item{
+          width:100%;
+          margin-bottom:30px;
+          .title{
+            padding-top:10px;
+            padding-bottom:10px;
+            padding-right:3px;
+            padding-left:3px;
+            margin-bottom:20px;
+            h5{
+              font-size: 16px;
+            }
+          }
+          .sentence{
+            padding:0 15px;
+            img{
+              width:100%;
+              margin-bottom: 15px;
+            }
+            p{
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+    .box2{
+      display:flex;
+      flex-wrap:wrap;
+      width:90%;
+      margin:0 auto;
+      .img{
+        width:100%;
+        padding:15px;
+        box-sizing:border-box;
+        img{
+          width:100%;
+        }
+      }
+      .sentence{
+        width:100%;
+        padding:5px 10px 20px 10px;
+        font-family:"ヒラギノ角ゴシック";
+        h5{
+          font-size: 20px;
+          color:$blue;
+          margin-top:0;
+          margin-bottom:15px;
+          font-family: "ヒラギノ角ゴシックz";
+        }
+        span{
+          background-color:$blue;
+          width:70px;
+          display: block;
+          margin-bottom:35px;
+          height:2px;
+        }
+        p{
+          font-size: 14px;
+          line-height: 1.6;
+        }
+      }
+    }
+  }
+  section#section03{
+    padding:0px 15px;
+    .title{
+      margin-bottom:15px;
+    }
+    h2{
+      font-size:20px;
+      margin-bottom:25px
+    }
+    span{
+      width:70px;
+      height:2px;
+      background-color:white;
+      margin:auto;
+      display: block;
+      margin-bottom:30px;
+    }
+    p{
+      font-size:14px;
+      margin-bottom:35px;
+      br{
+        display:none;
+      }
+    }
+    .content{
+      display:flex;
+      justify-content: space-between;
+      width:100%;
+      margin:0 auto 45px auto;
+      .img{
+        width:80%;
+        margin:0 auto 40px auto;
+        img{
+          width:100%;
+        }
+      }
+      .sentence{
+        width:100%;
+        text-align: left;
+        h5{
+          margin-bottom:25px;
+          img{
+            width:50%;
+          }
+        }
+        p{
+          padding-left: 20px;
+          font-size:14px;
+        }
+      }
+    }
+    .content01{
+      flex-wrap: wrap-reverse;
+    }
+    .content02{
+      flex-wrap: wrap;
+    }
+    h4{
+      font-size:20px;
+      margin-bottom:15px;
+    }
+    span{
+      background-color:white;
+      height:2px;
+      margin:auto auto;
+      width:70px;
+      margin-bottom:62px;
+    }
+    .content2{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      width:90%;
+      margin:auto;
+      .item{
+        width:100%;
+        margin:0 auto 30px auto;
+        border-radius:5px;
+        padding:20px;
+        padding-top:0;
+        box-sizing:border-box;
+        title{
+          display: block;
+          font-size: 18px;
+          border-bottom:3px white solid;
+          padding:15px 0;
+          box-sizing:border-box;
+          margin-bottom:20px;
+        }
+        ul{
+          padding:0;
+          list-style: none;
+          text-align: left;
+          li{
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+  section#section04{
+    padding:30px 15px;
+    .title{
+      text-align: center;
+      h2{
+        color:$blue;
+        font-size: 22px;
+        line-height:1.7;
+        padding-bottom:20px;
+      }
+      span{
+        height:2px;
+        width:70px;
+        background-color:$blue;
+        margin:auto;
+        display:block;
+        margin-bottom:20px;
+      }
+      p{
+        font-size:13px;
+        line-height:1.6;
+        margin-bottom:60px;
+      }
+    }
+    .box{
+      width:100%;
+      margin:0 auto;
+      .content{
+        h5{
+          color:$blue;
+          border-left:2px solid $blue;
+          font-size:17px;
+          padding-left:20px;
+          font-weight:bold;
+          margin-bottom:40px;
+        }
+        p{
+          margin:0 auto;
+          width:90%;
+          margin-bottom: 10px;
+        }
+        table{
+          width:100%;
+          margin:0 auto;
+          font-size:14px;
+          margin-bottom:23px;
+          color:black;
+          th{
+            font-weight:lighter;
+          }
+          th.num{
+            background-color:#9a9a9a;
+            color:white;
+            font-size: 13px;
+            text-align: center;
+            font-weight:bold;
+          }
+        }
+        .explain{
+          span{
+            width:20px;
+            height:20px;
+            border-radius: 50%;
+            background-color: $blue;
+            display: block;
+          }
+          margin-bottom:60px;
+        }
+      }
+      h2{
+        color:$blue;
+        padding-left:20px;
+        border-left:3px solid $blue;
+      }
+      .content2{
+        width:100%;
+        margin:0 auto;
+        display:flex;
+        flex-wrap: wrap;
+        .img{
+          width:100%;
+          margin-bottom:20px;
+          img{
+            width:100%;
+          }
+        }
+        .sentence{
+          width:100%;
+          padding:15px 20px;
+          p{
+            font-size:14px;
+          }
+          img{
+            width:100%;
+          }
+        }
+      }
+    }
+  }
+  section#section05{
+    padding:36px 15px;
+    h2{
+      font-size:22px;
+      line-height:1.7;
+      margin-bottom:25px;
+    }
+    span{
+      height:2px;
+      margin:auto;
+      width:70px;
+      display: block;
+      background-color:$blue;
+    }
+  }
+  section#section06{
+    h2{
+      font-size:22px;
+      margin-bottom:15px;
+    }
+    span{
+      height:2px;
+      width:70px;
+      display:block;
+      background-color:$blue;
+      margin:auto;
+      margin-bottom:30px;
+    }
+    p{
+      text-align:center;
+      font-size: 14px;
+      line-height: 1.6;
+      margin-bottom:30px;
+    }
+  }
+}

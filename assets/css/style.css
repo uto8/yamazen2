@@ -1,0 +1,1310 @@
+@charset "UTF-8";
+html {
+  font-size: 62.5%;
+}
+
+.pc {
+  display: block !important;
+}
+
+.sp {
+  display: none !important;
+}
+
+@media only screen and (max-width:640px) {
+  .pc {
+    display: none !important;
+  }
+
+  .sp {
+    display: block !important;
+  }
+}
+body {
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+}
+
+#footer {
+  position: relative;
+  background-color: #282655;
+  text-align: center;
+  color: white;
+  padding: 0 15px 27px 15px;
+  font-family: "Noto Sans CJK JP";
+}
+#footer a {
+  color: inherit;
+  text-decoration: inherit;
+}
+#footer a:hover {
+  color: inherit;
+  text-decoration: inherit;
+}
+#footer h1 {
+  text-align: center;
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+}
+#footer h1 img {
+  width: 213px;
+}
+#footer ul {
+  list-style: none;
+  padding-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+#footer ul li {
+  margin: 0 20px;
+  font-size: 16px;
+}
+#footer ul span {
+  display: block;
+  height: 30px;
+  width: 2px;
+  background-color: white;
+}
+#footer p {
+  margin-bottom: 0;
+}
+#footer button.footer_btn {
+  background: transparent;
+  border: none;
+  top: -40px;
+  right: 50px;
+  width: 80px;
+  position: absolute;
+}
+#footer button.footer_btn img {
+  width: 100%;
+}
+
+@media only screen and (max-width:640px) {
+  #footer h1 img {
+    width: 150px;
+  }
+  #footer ul {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  #footer ul li {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+  #footer ul li span {
+    display: none;
+  }
+  #footer button.footer_btn {
+    background: transparent;
+    border: none;
+    top: -30px;
+    right: 0px;
+    width: 70px;
+    position: absolute;
+  }
+  #footer button.footer_btn img {
+    width: 100%;
+  }
+}
+html, body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "ヒラギノ角ゴシック";
+}
+
+.triangle3 {
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 30px solid white;
+  margin: 0 auto;
+  background-color: #212121;
+  -webkit-transform: translateY(-130px);
+          transform: translateY(-130px);
+}
+
+section#section01 {
+  background-image: url(../images/section01-bg.png);
+  background-size: cover;
+  padding: 15px 30px;
+}
+section#section01 h1 {
+  width: 210px;
+  margin-bottom: 75px;
+}
+section#section01 h1 img {
+  width: 100%;
+}
+section#section01 .sentence {
+  color: white;
+  padding-left: 143px;
+  margin-bottom: 200px;
+  font-family: "ヒラギノ明朝 Pro";
+}
+section#section01 .sentence h3 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+section#section01 .sentence p {
+  font-size: 16px;
+}
+
+section#section02 {
+  padding-bottom: 100px;
+  position: relative;
+}
+section#section02 .contact_btn {
+  width: 70px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-transform: translateY(-50px);
+          transform: translateY(-50px);
+  background: none;
+  border: none;
+  padding: 0;
+}
+section#section02 .contact_btn img {
+  width: 100%;
+}
+section#section02 .box .content {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  -webkit-transform: translateY(-50px);
+          transform: translateY(-50px);
+}
+section#section02 .box .content .item {
+  width: 30%;
+  border: 2px solid #282655;
+}
+section#section02 .box .content .item .title {
+  background-color: #282655;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-family: "ヒラギノ明朝 Pro";
+}
+section#section02 .box .content .item .title h5 {
+  margin: 0;
+  font-size: 20px;
+}
+section#section02 .box .content .item .sentence {
+  padding: 0 30px;
+  font-family: "ヒラギノ角ゴシック";
+}
+section#section02 .box .content .item .sentence img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+section#section02 .box .content .item .sentence p {
+  font-size: 16px;
+}
+section#section02 .box2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+}
+section#section02 .box2 .img {
+  width: 50%;
+  padding: 5px;
+}
+section#section02 .box2 .img img {
+  width: 100%;
+}
+section#section02 .box2 .sentence {
+  width: 50%;
+  padding: 35px 20px 50px 50px;
+  font-family: "ヒラギノ角ゴシック";
+}
+section#section02 .box2 .sentence h5 {
+  font-size: 28px;
+  color: #282655;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-family: "ヒラギノ角ゴシックz";
+}
+section#section02 .box2 .sentence span {
+  background-color: #282655;
+  width: 70px;
+  display: block;
+  margin-bottom: 35px;
+  height: 2px;
+}
+section#section02 .box2 .sentence p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+section#section03 {
+  background-color: #212121;
+  background-image: url(../images/section03-bg.png);
+  background-size: cover;
+  background-position: bottom;
+  color: white;
+  text-align: center;
+  font-family: "ヒラギノ角ゴシック";
+}
+section#section03 .inner {
+  background-color: #212121;
+  width: 90%;
+  margin: 0 auto;
+  height: 100%;
+  padding: 130px 15px;
+}
+section#section03 .title {
+  margin-bottom: 95px;
+  font-family: "ヒラギノ明朝 Pro";
+}
+section#section03 h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+section#section03 span {
+  width: 70px;
+  height: 2px;
+  background-color: white;
+  margin: auto;
+  display: block;
+  margin-bottom: 30px;
+}
+section#section03 p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+section#section03 .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 70%;
+  margin: 0 auto 95px auto;
+}
+section#section03 .content .img {
+  width: 45%;
+}
+section#section03 .content .img img {
+  width: 100%;
+}
+section#section03 .content .sentence {
+  width: 50%;
+  text-align: left;
+}
+section#section03 .content .sentence h5 {
+  margin-bottom: 25px;
+}
+section#section03 .content .sentence h5 img {
+  width: 50%;
+}
+section#section03 .content .sentence p {
+  padding-left: 40px;
+  font-size: 16px;
+}
+section#section03 h4 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+section#section03 span {
+  background-color: white;
+  height: 2px;
+  margin: auto auto;
+  width: 70px;
+  margin-bottom: 62px;
+}
+section#section03 .content2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 70%;
+  margin: auto;
+}
+section#section03 .content2 .item {
+  border: 2px solid white;
+  width: 30%;
+  margin: 0 auto 30px auto;
+  border-radius: 5px;
+  padding: 20px;
+  padding-top: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+section#section03 .content2 .item title {
+  display: block;
+  font-size: 20px;
+  border-bottom: 3px white solid;
+  padding: 20px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 20px;
+}
+section#section03 .content2 .item ul {
+  padding: 0;
+  list-style: none;
+  text-align: left;
+}
+section#section03 .content2 .item ul li {
+  font-size: 16px;
+}
+
+section#section04 {
+  padding: 100px 15px;
+  font-family: "ヒラギノ角ゴシック";
+}
+section#section04 .title {
+  text-align: center;
+  font-family: "ヒラギノ明朝 Pro";
+}
+section#section04 .title h2 {
+  color: #282655;
+  font-size: 32px;
+  line-height: 1.7;
+  padding-bottom: 20px;
+}
+section#section04 .title span {
+  height: 2px;
+  width: 70px;
+  background-color: #282655;
+  margin: auto;
+  display: block;
+  margin-bottom: 30px;
+}
+section#section04 .title p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 100px;
+}
+section#section04 .box {
+  width: 70%;
+  margin: 0 auto;
+}
+section#section04 .box .content h5 {
+  color: #282655;
+  border-left: 2px solid #282655;
+  font-size: 28px;
+  padding-left: 20px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+section#section04 .box .content p {
+  margin: 0 auto;
+  width: 90%;
+  margin-bottom: 20px;
+}
+section#section04 .box .content table {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 16px;
+  margin-bottom: 23px;
+  color: black;
+}
+section#section04 .box .content table th {
+  font-weight: lighter;
+}
+section#section04 .box .content table th.num {
+  background-color: #9a9a9a;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+section#section04 .box .content .explain {
+  margin-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+section#section04 .box .content .explain span {
+  margin-right: 20px;
+  width: 20px;
+  height: 20px;
+}
+section#section04 .box .content .explain span img {
+  width: 100%;
+}
+section#section04 .box .content .explain p {
+  margin: 0;
+}
+section#section04 .box h2 {
+  color: #282655;
+  padding-left: 20px;
+  border-left: 3px solid #282655;
+}
+section#section04 .box .content2 {
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+section#section04 .box .content2 .img {
+  width: 50%;
+}
+section#section04 .box .content2 .img img {
+  width: 100%;
+}
+section#section04 .box .content2 .sentence {
+  width: 50%;
+  padding-top: 15px;
+  padding-left: 30px;
+}
+section#section04 .box .content2 .sentence p {
+  font-size: 16px;
+}
+section#section04 .box .content2 .sentence img {
+  width: 100%;
+}
+
+section#section05 {
+  padding: 96px 15px;
+  font-family: "ヒラギノ角ゴシック";
+}
+section#section05 h2 {
+  color: #282655;
+  text-align: center;
+  font-family: "ヒラギノ明朝 Pro";
+  font-size: 32px;
+  line-height: 1.7;
+  margin-bottom: 35px;
+}
+section#section05 span {
+  height: 2px;
+  margin: auto;
+  width: 70px;
+  display: block;
+  background-color: #282655;
+}
+
+section#section06 h2 {
+  font-family: "ヒラギノ明朝 Pro";
+  font-size: 32px;
+  text-align: center;
+  color: #282655;
+  margin-bottom: 30px;
+}
+section#section06 span {
+  height: 2px;
+  width: 70px;
+  display: block;
+  background-color: #282655;
+  margin: auto;
+  margin-bottom: 30px;
+}
+section#section06 p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+section#section06 form {
+  width: 80%;
+  margin: 0 auto;
+  border: 2px solid #e6e6e6;
+  padding: 0 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+section#section06 form .form-group {
+  width: 100%;
+  padding: 20px 0;
+  border-top: 1px solid #e6e6e6;
+}
+section#section06 form .form-group label {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media only screen and (min-width:641px) and (max-width:959px) {
+  section#section01 {
+    background-image: url(../images/section01-bg.png);
+    background-size: cover;
+    padding: 15px 30px;
+  }
+  section#section01 h1 {
+    width: 150px;
+    margin-bottom: 75px;
+  }
+  section#section01 h1 img {
+    width: 100%;
+  }
+  section#section01 .sentence {
+    color: white;
+    padding-left: 73px;
+    margin-bottom: 100px;
+  }
+  section#section01 .sentence h3 {
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+  section#section01 .sentence p {
+    font-size: 15px;
+  }
+
+  section#section02 {
+    padding-bottom: 100px;
+    position: relative;
+  }
+  section#section02 .contact_btn {
+    width: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+    background: none;
+    border: none;
+    padding: 0;
+  }
+  section#section02 .contact_btn img {
+    width: 100%;
+  }
+  section#section02 .box .content {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+  }
+  section#section02 .box .content .item {
+    width: 30%;
+    border: 2px solid #282655;
+  }
+  section#section02 .box .content .item .title {
+    background-color: #282655;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 3px;
+    padding-left: 3px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: "ヒラギノ明朝 Pro";
+  }
+  section#section02 .box .content .item .title h5 {
+    margin: 0;
+    font-size: 16px;
+  }
+  section#section02 .box .content .item .sentence {
+    padding: 0 15px;
+    font-family: "ヒラギノ角ゴシック";
+  }
+  section#section02 .box .content .item .sentence img {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  section#section02 .box .content .item .sentence p {
+    font-size: 14px;
+  }
+  section#section02 .box2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+  }
+  section#section02 .box2 .img {
+    width: 100%;
+    padding: 30px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  section#section02 .box2 .img img {
+    width: 100%;
+  }
+  section#section02 .box2 .sentence {
+    width: 100%;
+    padding: 25px 40px 20px 40px;
+    font-family: "ヒラギノ角ゴシック";
+  }
+  section#section02 .box2 .sentence h5 {
+    font-size: 22px;
+    color: #282655;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-family: "ヒラギノ角ゴシックz";
+  }
+  section#section02 .box2 .sentence span {
+    background-color: #282655;
+    width: 70px;
+    display: block;
+    margin-bottom: 35px;
+    height: 2px;
+  }
+  section#section02 .box2 .sentence p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  section#section03 {
+    padding: 0px 15px;
+  }
+  section#section03 .title {
+    margin-bottom: 30px;
+  }
+  section#section03 h2 {
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+  section#section03 span {
+    width: 70px;
+    height: 2px;
+    background-color: white;
+    margin: auto;
+    display: block;
+    margin-bottom: 30px;
+  }
+  section#section03 p {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  section#section03 .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 80%;
+    margin: 0 auto 95px auto;
+  }
+  section#section03 .content .img {
+    width: 80%;
+    margin: 0 auto 40px auto;
+  }
+  section#section03 .content .img img {
+    width: 100%;
+  }
+  section#section03 .content .sentence {
+    width: 100%;
+    text-align: left;
+  }
+  section#section03 .content .sentence h5 {
+    margin-bottom: 25px;
+  }
+  section#section03 .content .sentence h5 img {
+    width: 30%;
+  }
+  section#section03 .content .sentence p {
+    padding-left: 40px;
+    font-size: 14px;
+  }
+  section#section03 .content01 {
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+  }
+  section#section03 .content02 {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  section#section03 h4 {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  section#section03 span {
+    background-color: white;
+    height: 2px;
+    margin: auto auto;
+    width: 70px;
+    margin-bottom: 62px;
+  }
+  section#section03 .content2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 80%;
+    margin: auto;
+  }
+  section#section03 .content2 .item {
+    width: 48%;
+    margin: 0 auto 30px auto;
+    border-radius: 5px;
+    padding: 20px;
+    padding-top: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  section#section03 .content2 .item title {
+    display: block;
+    font-size: 20px;
+    border-bottom: 3px white solid;
+    padding: 20px 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  section#section03 .content2 .item ul {
+    padding: 0;
+    list-style: none;
+    text-align: left;
+  }
+  section#section03 .content2 .item ul li {
+    font-size: 16px;
+  }
+
+  section#section04 {
+    padding: 60px 15px;
+  }
+  section#section04 .title {
+    text-align: center;
+  }
+  section#section04 .title h2 {
+    color: #282655;
+    font-size: 25px;
+    line-height: 1.7;
+    padding-bottom: 20px;
+  }
+  section#section04 .title span {
+    height: 2px;
+    width: 70px;
+    background-color: #282655;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+  }
+  section#section04 .title p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 60px;
+  }
+  section#section04 .box {
+    width: 70%;
+    margin: 0 auto;
+  }
+  section#section04 .box .content h5 {
+    color: #282655;
+    border-left: 2px solid #282655;
+    font-size: 20px;
+    padding-left: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  section#section04 .box .content p {
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 10px;
+  }
+  section#section04 .box .content table {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 14px;
+    margin-bottom: 23px;
+    color: black;
+  }
+  section#section04 .box .content table th {
+    font-weight: lighter;
+  }
+  section#section04 .box .content table th.num {
+    background-color: #9a9a9a;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+  }
+  section#section04 .box .content .explain {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 100px;
+  }
+  section#section04 .box .content .explain span {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #282655;
+    display: block;
+  }
+  section#section04 .box .content .explain span img {
+    width: 100%;
+  }
+  section#section04 .box h2 {
+    color: #282655;
+    padding-left: 20px;
+    border-left: 3px solid #282655;
+  }
+  section#section04 .box .content2 {
+    width: 100%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  section#section04 .box .content2 .img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  section#section04 .box .content2 .img img {
+    width: 100%;
+  }
+  section#section04 .box .content2 .sentence {
+    width: 100%;
+    padding: 15px 20px;
+  }
+  section#section04 .box .content2 .sentence p {
+    font-size: 16px;
+  }
+  section#section04 .box .content2 .sentence img {
+    width: 100%;
+  }
+
+  section#section05 {
+    padding: 56px 15px;
+    font-family: "ヒラギノ角ゴシック";
+  }
+  section#section05 h2 {
+    color: #282655;
+    text-align: center;
+    font-family: "ヒラギノ明朝 Pro";
+    font-size: 25px;
+    line-height: 1.7;
+    margin-bottom: 25px;
+  }
+  section#section05 span {
+    height: 2px;
+    margin: auto;
+    width: 70px;
+    display: block;
+    background-color: #282655;
+  }
+
+  section#section06 h2 {
+    font-family: "ヒラギノ明朝 Pro";
+    font-size: 25px;
+    text-align: center;
+    color: #282655;
+    margin-bottom: 20px;
+  }
+  section#section06 span {
+    height: 2px;
+    width: 70px;
+    display: block;
+    background-color: #282655;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  section#section06 p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width:640px) {
+  .triangle3 {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid white;
+    margin: 0 auto;
+    background-color: #212121;
+    -webkit-transform: translateY(-130px);
+            transform: translateY(-130px);
+  }
+
+  section#section01 {
+    padding: 15px 30px;
+  }
+  section#section01 h1 {
+    width: 100px;
+    margin-bottom: 25px;
+  }
+  section#section01 h1 img {
+    width: 100%;
+  }
+  section#section01 .sentence {
+    padding-left: 23px;
+    margin-bottom: 30px;
+  }
+  section#section01 .sentence h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  section#section01 .sentence p {
+    font-size: 14px;
+  }
+
+  section#section02 {
+    padding-bottom: 100px;
+    position: relative;
+  }
+  section#section02 .contact_btn {
+    width: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    -webkit-transform: translateY(-70px);
+            transform: translateY(-70px);
+    background: none;
+    border: none;
+    padding: 0;
+  }
+  section#section02 .contact_btn img {
+    width: 100%;
+  }
+  section#section02 .box .content {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+  section#section02 .box .content .item {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  section#section02 .box .content .item .title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 3px;
+    padding-left: 3px;
+    margin-bottom: 20px;
+  }
+  section#section02 .box .content .item .title h5 {
+    font-size: 16px;
+  }
+  section#section02 .box .content .item .sentence {
+    padding: 0 15px;
+  }
+  section#section02 .box .content .item .sentence img {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  section#section02 .box .content .item .sentence p {
+    font-size: 14px;
+  }
+  section#section02 .box2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+  }
+  section#section02 .box2 .img {
+    width: 100%;
+    padding: 15px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  section#section02 .box2 .img img {
+    width: 100%;
+  }
+  section#section02 .box2 .sentence {
+    width: 100%;
+    padding: 5px 10px 20px 10px;
+    font-family: "ヒラギノ角ゴシック";
+  }
+  section#section02 .box2 .sentence h5 {
+    font-size: 20px;
+    color: #282655;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-family: "ヒラギノ角ゴシックz";
+  }
+  section#section02 .box2 .sentence span {
+    background-color: #282655;
+    width: 70px;
+    display: block;
+    margin-bottom: 35px;
+    height: 2px;
+  }
+  section#section02 .box2 .sentence p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  section#section03 {
+    padding: 0px 15px;
+  }
+  section#section03 .title {
+    margin-bottom: 15px;
+  }
+  section#section03 h2 {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  section#section03 span {
+    width: 70px;
+    height: 2px;
+    background-color: white;
+    margin: auto;
+    display: block;
+    margin-bottom: 30px;
+  }
+  section#section03 p {
+    font-size: 14px;
+    margin-bottom: 35px;
+  }
+  section#section03 p br {
+    display: none;
+  }
+  section#section03 .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    margin: 0 auto 45px auto;
+  }
+  section#section03 .content .img {
+    width: 80%;
+    margin: 0 auto 40px auto;
+  }
+  section#section03 .content .img img {
+    width: 100%;
+  }
+  section#section03 .content .sentence {
+    width: 100%;
+    text-align: left;
+  }
+  section#section03 .content .sentence h5 {
+    margin-bottom: 25px;
+  }
+  section#section03 .content .sentence h5 img {
+    width: 50%;
+  }
+  section#section03 .content .sentence p {
+    padding-left: 20px;
+    font-size: 14px;
+  }
+  section#section03 .content01 {
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+  }
+  section#section03 .content02 {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  section#section03 h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  section#section03 span {
+    background-color: white;
+    height: 2px;
+    margin: auto auto;
+    width: 70px;
+    margin-bottom: 62px;
+  }
+  section#section03 .content2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 90%;
+    margin: auto;
+  }
+  section#section03 .content2 .item {
+    width: 100%;
+    margin: 0 auto 30px auto;
+    border-radius: 5px;
+    padding: 20px;
+    padding-top: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  section#section03 .content2 .item title {
+    display: block;
+    font-size: 18px;
+    border-bottom: 3px white solid;
+    padding: 15px 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  section#section03 .content2 .item ul {
+    padding: 0;
+    list-style: none;
+    text-align: left;
+  }
+  section#section03 .content2 .item ul li {
+    font-size: 14px;
+  }
+
+  section#section04 {
+    padding: 30px 15px;
+  }
+  section#section04 .title {
+    text-align: center;
+  }
+  section#section04 .title h2 {
+    color: #282655;
+    font-size: 22px;
+    line-height: 1.7;
+    padding-bottom: 20px;
+  }
+  section#section04 .title span {
+    height: 2px;
+    width: 70px;
+    background-color: #282655;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+  }
+  section#section04 .title p {
+    font-size: 13px;
+    line-height: 1.6;
+    margin-bottom: 60px;
+  }
+  section#section04 .box {
+    width: 100%;
+    margin: 0 auto;
+  }
+  section#section04 .box .content h5 {
+    color: #282655;
+    border-left: 2px solid #282655;
+    font-size: 17px;
+    padding-left: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  section#section04 .box .content p {
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 10px;
+  }
+  section#section04 .box .content table {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 14px;
+    margin-bottom: 23px;
+    color: black;
+  }
+  section#section04 .box .content table th {
+    font-weight: lighter;
+  }
+  section#section04 .box .content table th.num {
+    background-color: #9a9a9a;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+  }
+  section#section04 .box .content .explain {
+    margin-bottom: 60px;
+  }
+  section#section04 .box .content .explain span {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #282655;
+    display: block;
+  }
+  section#section04 .box h2 {
+    color: #282655;
+    padding-left: 20px;
+    border-left: 3px solid #282655;
+  }
+  section#section04 .box .content2 {
+    width: 100%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  section#section04 .box .content2 .img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  section#section04 .box .content2 .img img {
+    width: 100%;
+  }
+  section#section04 .box .content2 .sentence {
+    width: 100%;
+    padding: 15px 20px;
+  }
+  section#section04 .box .content2 .sentence p {
+    font-size: 14px;
+  }
+  section#section04 .box .content2 .sentence img {
+    width: 100%;
+  }
+
+  section#section05 {
+    padding: 36px 15px;
+  }
+  section#section05 h2 {
+    font-size: 22px;
+    line-height: 1.7;
+    margin-bottom: 25px;
+  }
+  section#section05 span {
+    height: 2px;
+    margin: auto;
+    width: 70px;
+    display: block;
+    background-color: #282655;
+  }
+
+  section#section06 h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  section#section06 span {
+    height: 2px;
+    width: 70px;
+    display: block;
+    background-color: #282655;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  section#section06 p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+}

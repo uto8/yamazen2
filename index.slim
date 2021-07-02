@@ -1,0 +1,331 @@
+doctype html
+html lang="ja"
+  head
+    == Slim::Template.new('./templates/_meta.slim').render(Object.new, :title => "未設定", :description => "サイト説明が入ります", :keywords => "f, o, o")
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  body
+    == Slim::Template.new('./templates/_header.slim').render
+    section#section01
+      h1
+        img src="assets/images/section01-logo.png"
+      .sentence
+        h3  これからの時代を⽣き抜く<br>⼯場設備の⾃動化は、<br>⼭善TFS⽀社FA課にお任せください
+        p  先端システムの導⼊で、正確かつ迅速な物流を構築し、<br>ものづくり、物流業を中⼼に省⼈化・⾃動化の<br>トータルソリューションをご提供します。
+    section#section02
+      button.contact_btn
+        img src="assets/images/contact_banner-btn@2x.png"
+      .box
+        .content
+          .item
+            .title
+              h5   造⼯程を⾃動化し、⽣産性を向上したい⽅
+            .sentence
+              img src="assets/images/section0201.png"
+              p  製造ラインへロボットや⾃動化システムを導⼊することにより、稼働率を向上させます。
+          .item
+            .title
+              h5   製品の品質を安定させたい、ばらつきを無くしたい⽅
+            .sentence
+              img src="assets/images/section0202.png"
+              p  IoT・ICTの導⼊により、不良品を正確かつ素早く発⾒し、安全性の確保、均質化を図ります。
+          .item
+            .title
+              h5  ⼈材不⾜による作業効率の低下にお悩みの⽅
+            .sentence
+              img src="assets/images/section0203.png"
+              p  これまで⼈の⼿で⾏っていた作業を⾃動化することで、作業効率を向上させます。
+      .box2
+        .img
+          img src="assets/images/section0205.png"
+        .sentence
+          h5  Factory Automationとは？<br>
+          span
+          p  FA（Factory Automation）とは、IoTやAIシステム、ロボットを⼯場の⽣産⼯程に導⼊することで、これまで⼈の⼿で⾏っていた作業を⾃動化することをいいます。⽣産⼯程の⾃動化により、省⼈化やコストの削減、品質の安定を確保できるなどのメリットが多くあります。
+    section#section03
+      .inner
+        .triangle3
+        .title
+          h2  ⼭善TFS⽀社FA課は、<br>⾃動化に特化した<br>株式会社⼭善の専⾨組織です。<br>
+          span
+          p  これまでに「モノづくり」から「快適な暮らし」まで<br>様々なシーンを⽀えてきた⼭善だからこそ実現できる<br>Factory Automationをご提供します。
+          p  ⽣産⼯程におけるさまざまな課題と向き合う、<br>⼭善ならではのトータルソリューションを<br>実感してください。
+        .content.content01
+          .sentence
+            h5
+              img src="assets/images/section0207.png"
+            p  ⽣産管理システムを導⼊することにより、把握し難い部品や在庫管理が⾃動化できます。バーコードによる品⽬チェックで作業精度が向上し、「誰が、いつ、何を、何個」突合したのかの情報をシステム上で管理することで、⼈為的ミスを防げます。
+          .img
+            img src="assets/images/section0301.png"
+        .content.content02
+          .img
+            img src="assets/images/section0302.png"
+          .sentence
+            h5
+              img src="assets/images/section0208.png"
+            p  製品の品質チェックを⾃動化することにより、これまで目視で⾏っていた確認作業を⾼感度検査機で瞬時にチェックすることが可能になります。⼈為的ミスを防ぎ、不良品を的確に排除できるため、品質の向上・均質化を実現します。
+        .content.content01
+          .sentence
+            h5
+              img src="assets/images/section0206.png"
+            p  AI技術を活⽤した知能ロボットを導⼊することで、これまで⼈の⼿で⾏ってきた複雑な作業⼯程も⾃動化することができます。複雑なプログラミングを必要とせず、⼈材不⾜の解決、省⼈化を実現します。
+          .img
+            img src="assets/images/section0303.png"
+        h4  実績設備例
+        span
+        .content2
+          .item
+            title  加⼯関連
+            ul
+              li  CVTケース加⼯ライン
+              li  オイルパン加⼯ライン
+              li  カムブラケット加⼯ライン
+              li  ギヤシャフト加⼯ライン
+              li  シリンダーブロック加⼯ライン
+              li  ピストン加⼯ライン
+              li  2000t射出成形ライン
+              li  2500t油圧プレス成形ライン
+              li  銅板折り曲げライン
+              li  曲がり矯正ライン
+          .item
+            title  組⽴関連
+            ul
+              li  エンジン組⽴ライン
+              li  コネクタ組⽴ライン
+              li  インクフレーム組⽴ライン
+              li  トナーカートリッジ組⽴ライン
+              li  ブラシホルダ組⽴溶接ライン
+              li  電子部品レーザー溶接組⽴ライン
+              li  コネクタインサートライン
+              li  コイルターミナル圧⼊装置
+              li  シリンダーヘッド洗浄機
+              li  BCM⽤AMP組⽴ライン
+          .item
+            title  測定検査関連
+            ul
+              li  バランスギヤ計測ライン
+              li  アルミ材画像測定機
+              li  ポスト材⼨法測定機
+              li  バルブ特性試験機
+              li  インライン測定システム
+              li  リークテスター
+              li  タップ⽳内径測定機
+          .item
+            title  マテハン関連
+            ul
+              li  クランク軸搬送装置
+              li  トラクタケース⾃動倉庫
+              li  キャビネット⾃動倉庫
+              li  パレタイズ装置
+              li  AGVシステム
+              li  搬送仕分システム
+              li  液晶ガラス搬送コンベア
+              li  コンタクトレンズ印刷搬送装置
+              li  40t⾦型搬送台⾞
+          .item
+            title  ロボット関連
+            ul
+              li  キッチンカウンター⾯取ロボット
+              li  浴槽バリ取りロボット
+              li  フレーム溶接ロボット
+              li  洗い場ハンドリングロボット
+              li  加⼯機間ハンドリングロボット
+              li  箱詰めゲンコツロボット
+              li  パネル積み付けロボット
+              li  ホットメルト塗布協働ロボット
+              li  試験⽤協働ロボット
+          .item
+            title  ユーティリティー関連
+            ul
+              li  LED照明
+              li  メガソーラー
+              li  コンプレッサー
+              li  ホイスト・クレーン
+              li  垂直搬送機
+              li  デジタルピッキングシステム
+              li  梱包ライン
+              li  炉
+              li  銅板折り曲げライン
+              li  各種特注パレット
+    section#section04
+      .title
+        h2  ⼭善だからこその<br>幅広いネットワーク<br>
+        span
+        p  ⼭善はこれまでにさまざまな企業様と協⼒し、<br>お客様の課題解決に取り組んできました。<br>⼭善TFS⽀社FA課では、これまでに培った幅広いネットワークを活かし<br>⾃動化設備導⼊までのあらゆる課題結をお⼿伝いいたします。
+      .box
+        .content
+          h5  幅広いニーズに対応したSIer企業
+          p  ⼭善TFS⽀社FA課では、多くのSIer企業様と協⼒することで幅広いニーズへの対応を可能にしています。
+          table.table.table-striped.table-bordered
+            tr
+              th.num  01
+              th  株式会社IME
+              th  FA、専用機、検査機
+            tr
+              th.num  02
+              th  株式会社足利技研
+              th  FA、成形機、専用機
+            tr
+              th.num  03
+              th  株式会社石原技研
+              th  FA、輸送自動化
+            tr
+              th.num  04
+              th  株式会社HCI
+              th  FA、専用機、ケーブル、チューブ、ワイヤ製造装置
+            tr
+              th.num  05
+              th  株式会社エヌエスティー
+              th  FA、専用機、検査、計測
+            tr
+              th.num  06
+              th  関東精機株式会社
+              th  FA、温調機、半導体
+            tr
+              th.num  07
+              th  機電株式会社
+              th  FA、専用機、炉、搬送機器、組立
+            tr
+              th.num  08
+              th  京葉エンジニアリング株式会社
+              th  FA、専用機
+            tr
+              th.num  09
+              th  三和ロボティクス株式会社
+              th  FA、専用機
+            tr
+              th.num  10
+              th  株式会社システム
+              th  FA、検査、搬送
+            tr
+              th.num  11
+              th  株式会社新和技研
+              th  FA、加工、検査、組立
+            tr
+              th.num  12
+              th  株式会社成興技研
+              th  FA、加工、検査、組み立て
+            tr
+              th.num  13
+              th  立山工業株式会社
+              th  FA、工具、治具、検査
+            tr
+              th.num  14
+              th  立山マシン株式会社
+              th  FA、専用機、組立
+            tr
+              th.num  15
+              th  東邦工業株式会社
+              th  FA、専用機、組立、検査
+            tr
+              th.num  16
+              th  東洋計装株式会社
+              th  FA、専用機、ケーブル、チューブ、ワイヤ製造装置
+            tr
+              th.num  17
+              th  株式会社中西機会
+              th  FA、専用機、組立、検査、成形機
+            tr
+              th.num  18
+              th  NITTOKU株式会社
+              th  FA、専用機、検査機、巻線機
+            tr
+              th.num  19
+              th  株式会社日本設計工業
+              th  FA、搬送自動化
+            tr
+              th.num  20
+              th  株式会社バイナス
+              th  FA、AGV
+            tr
+              th.num  21
+              th  浜田製作株式会社
+              th  FA、自動化
+            tr
+              th.num  22
+              th  東山精機販売株式会社
+              th  FA、コンペア、加工機
+            tr
+              th.num  23
+              th  株式会社マトロ
+              th  FA、検査、搬送、洗浄
+            tr
+              th.num  24
+              th  有限会社水野鉄工
+              th  FA、搬送自動化、洗浄
+            tr
+              th.num  25
+              th  株式会社みわ精機
+              th  FA、食品
+            tr
+              th.num  26
+              th  メカトロ・アソシエーツ株式会社
+              th  FA、溶接
+            tr
+              th.num  27
+              th  株式会社山中機会工作所
+              th  樹脂加工機
+            tr
+              th.num  28
+              th  株式会社ユニテック
+              th  FA、専用機、検査
+            tr
+              th.num  29
+              th  リンクウィズ株式会社
+              th  溶接自動生成技術
+            tr
+              th.num  30
+              th  ロボシステムエンジニアリング株式会社
+              th  FA、搬送
+          .explain
+            span
+              img src="assets/images/section04-icon.png"
+            p  国内グループ会社については<a href="#">こちら</a>をご覧ください。
+          h5  ベンチャー企業との取り組み
+        .content2
+          .img
+            img src="assets/images/section04.png"
+          .sentence
+            p  アセントロボティクス株式会社と提携することにより、AI技術を活⽤した知能ロボットの導⼊を容易にします。これにより、これまでの定形化された旧来型ロボットでは実現できなかった多種多様な材質‧形状のワークに対し幅広く対応することが可能になります。⼭善TFS⽀社FA課では、大規模製造‧物流業界向けのAIロボットソリューションの提供をはじめ、省⼈化・⾃動化のソリューションを推進してまいります。
+            img src="assets/images/section0402.png"
+    section#section05
+      h2  ⼭善TFS⽀社FA課の<br>トータルソリューション<br>
+      span
+
+    section#section06
+      h2  お問い合わせ
+      span
+      p  自動化設備についてのご相談は、下記フォームに必要事項を入力してください。<br>入力後、確認ボタンを押してください。
+      form
+        h5  お客様情報
+        .form-group.row
+          label.col-4  メールアドレス
+          input.col-8#email
+        .form-group.row
+          label.col-4  会社名
+          input.col-8#company
+        .form-group.row
+          label.col-4  部署名
+          input.col-8#apartment
+        .form-group.row
+          label.col-4  役職
+          input.col-8#job
+        .form-group.row
+          label.col-4  御名前
+          input.col-8#name
+        .form-group.row
+          label.col-4  〒
+          input
+        .form-group.row
+          label.col-4  電話番号
+          input.col-8#phone
+        .form-group.row
+          label.col-4  FAX番号
+          input.col-8#fax
+        p　上記項目にご記入頂き、「確認画面へ進む」ボタンを1回だけクリックしてください。
+        p  次回、お客様情報を入力しないで済むよう、暗号化してクッキーに記憶する。
+
+    == Slim::Template.new('./templates/_footer.slim').render
+    == Slim::Template.new('./templates/_script.slim').render

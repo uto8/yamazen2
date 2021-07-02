@@ -1,0 +1,3 @@
+AddType text/x-component .htc
+ExpiresActive on
+ExpiresDefault A3600
