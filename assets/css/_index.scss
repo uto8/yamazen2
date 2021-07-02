@@ -68,7 +68,8 @@ section#section02{
     .content{
       justify-content: space-around;
       display:flex;
-      width:70%;
+      width:100%;
+      max-width:980px;
       margin:0 auto;
       margin-bottom:80px;
       transform:translateY(-50px);
@@ -107,7 +108,8 @@ section#section02{
   }
   .box2{
     display:flex;
-    width:70%;
+    width:100%;
+    max-width:980px;
     margin:0 auto;
     .img{
       width:50%;
@@ -179,7 +181,8 @@ section#section03{
   .content{
     display:flex;
     justify-content: space-between;
-    width:70%;
+    width:100%;
+    max-width:1080px;
     margin:0 auto 95px auto;
     .img{
       width:45%;
@@ -192,8 +195,16 @@ section#section03{
       text-align: left;
       h5{
         margin-bottom:25px;
-        img{
-          width:50%;
+        .img1{
+          max-width:240px;
+        }
+        .img2{
+
+          max-width:212px;
+        }
+        .img3{
+          
+          max-width:265px;
         }
       }
       p{
@@ -274,7 +285,8 @@ section#section04{
     }
   }
   .box{
-    width:70%;
+    width:100%;
+    max-width:980px;
     margin:0 auto;
     .content{
       h5{
@@ -332,6 +344,7 @@ section#section04{
     }
     .content2{
       width:100%;
+      max-width:980px;
       margin:0 auto;
       display:flex;
       .img{
@@ -815,7 +828,7 @@ section#section06{
     .contact_btn{
       width:40px;
       position:fixed;
-      top:300px;
+      top:100px;
       right:0;
       transform:translateY(-70px);
       background:none;
