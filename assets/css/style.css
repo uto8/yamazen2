@@ -163,14 +163,15 @@ section#section02 {
 }
 section#section02 .contact_btn {
   width: 70px;
-  position: absolute;
-  top: 0;
+  position: fixed;
+  top: 500px;
   right: 0;
   -webkit-transform: translateY(-50px);
           transform: translateY(-50px);
   background: none;
   border: none;
   padding: 0;
+  z-index: 2;
 }
 section#section02 .contact_btn img {
   width: 100%;
@@ -186,6 +187,7 @@ section#section02 .box .content {
   margin-bottom: 80px;
   -webkit-transform: translateY(-50px);
           transform: translateY(-50px);
+  z-index: 1;
 }
 section#section02 .box .content .item {
   width: 30%;
@@ -340,15 +342,16 @@ section#section03 .content2 {
       flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  width: 70%;
+  max-width: 980px;
+  width: 100%;
   margin: auto;
 }
 section#section03 .content2 .item {
   border: 2px solid white;
-  width: 30%;
+  width: 31%;
   margin: 0 auto 30px auto;
   border-radius: 5px;
-  padding: 20px;
+  padding: 15px;
   padding-top: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -414,6 +417,7 @@ section#section04 .box .content p {
   margin: 0 auto;
   width: 90%;
   margin-bottom: 20px;
+  font-size: 16px;
 }
 section#section04 .box .content table {
   width: 90%;
@@ -439,6 +443,7 @@ section#section04 .box .content .explain {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-size: 16px;
 }
 section#section04 .box .content .explain span {
   margin-right: 20px;
@@ -846,7 +851,6 @@ section#section06 form .form-group label {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: #282655;
     display: block;
   }
   section#section04 .box .content .explain span img {
@@ -950,8 +954,11 @@ section#section06 form .form-group label {
     width: 100%;
   }
   section#section01 .sentence {
-    padding-left: 23px;
+    padding-left: 0px;
     margin-bottom: 30px;
+  }
+  section#section01 .sentence br {
+    display: none;
   }
   section#section01 .sentence h3 {
     font-size: 18px;
@@ -967,8 +974,8 @@ section#section06 form .form-group label {
   }
   section#section02 .contact_btn {
     width: 40px;
-    position: absolute;
-    top: 0;
+    position: fixed;
+    top: 300px;
     right: 0;
     -webkit-transform: translateY(-70px);
             transform: translateY(-70px);
@@ -1061,6 +1068,10 @@ section#section06 form .form-group label {
 
   section#section03 {
     padding: 0px 15px;
+    background-image: none;
+  }
+  section#section03 .inner {
+    width: 100%;
   }
   section#section03 .title {
     margin-bottom: 15px;
@@ -1149,7 +1160,7 @@ section#section06 form .form-group label {
     width: 100%;
     margin: 0 auto 30px auto;
     border-radius: 5px;
-    padding: 20px;
+    padding: 10px;
     padding-top: 0;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -1238,7 +1249,6 @@ section#section06 form .form-group label {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: #282655;
     display: block;
   }
   section#section04 .box h2 {
@@ -1306,5 +1316,32 @@ section#section06 form .form-group label {
     font-size: 14px;
     line-height: 1.6;
     margin-bottom: 30px;
+  }
+}
+.pc-only {
+  display: none;
+}
+
+.tablet-only {
+  display: none;
+}
+
+.phone-only {
+  display: none;
+}
+
+@media only screen and (min-width:960px) {
+  .pc-only {
+    display: block;
+  }
+}
+@media only screen and (min-width:641px) and (max-width:959px) {
+  .tablet-only {
+    display: block;
+  }
+}
+@media only screen and (max-width:640px) {
+  .phone-only {
+    display: block;
   }
 }

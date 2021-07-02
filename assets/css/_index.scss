@@ -52,13 +52,14 @@ section#section02{
   position:relative;
   .contact_btn{
     width:70px;
-    position:absolute;
-    top:0;
+    position:fixed;
+    top:500px;
     right:0;
     transform:translateY(-50px);
     background:none;
     border:none;
     padding:0;
+    z-index: 2;
     img{
       width:100%;
     }
@@ -71,6 +72,7 @@ section#section02{
       margin:0 auto;
       margin-bottom:80px;
       transform:translateY(-50px);
+      z-index: 1;
       .item{
         width:30%;
         border:2px solid $blue;
@@ -215,14 +217,15 @@ section#section03{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    width:70%;
+    max-width: 980px;
+    width:100%;
     margin:auto;
     .item{
       border:2px solid white;
-      width:30%;
+      width:31%;
       margin:0 auto 30px auto;
       border-radius:5px;
-      padding:20px;
+      padding:15px;
       padding-top:0;
       box-sizing:border-box;
       title{
@@ -286,6 +289,7 @@ section#section04{
         margin:0 auto;
         width:90%;
         margin-bottom: 20px;
+        font-size: 16px;
       }
       table{
         width:90%;
@@ -307,6 +311,7 @@ section#section04{
         margin-bottom:100px;
         display: flex;
         align-items: center;
+        font-size: 16px;
         span{
           margin-right:20px;
           width:20px;
@@ -686,7 +691,6 @@ section#section06{
             width:20px;
             height:20px;
             border-radius: 50%;
-            background-color: $blue;
             display: block;
             img{
               width:100%;
@@ -790,8 +794,11 @@ section#section06{
       }
     }
     .sentence{
-      padding-left:23px;
+      padding-left:0px;
       margin-bottom:30px;
+      br{
+        display:none;
+      }
       h3{
         font-size:18px;
         margin-bottom:20px;
@@ -806,8 +813,8 @@ section#section06{
     position:relative;
     .contact_btn{
       width:40px;
-      position:absolute;
-      top:0;
+      position:fixed;
+      top:300px;
       right:0;
       transform:translateY(-70px);
       background:none;
@@ -892,6 +899,10 @@ section#section06{
   }
   section#section03{
     padding:0px 15px;
+    background-image:none;
+    .inner{
+      width:100%;
+    }
     .title{
       margin-bottom:15px;
     }
@@ -968,7 +979,7 @@ section#section06{
         width:100%;
         margin:0 auto 30px auto;
         border-radius:5px;
-        padding:20px;
+        padding:10px;
         padding-top:0;
         box-sizing:border-box;
         title{
@@ -1053,7 +1064,6 @@ section#section06{
             width:20px;
             height:20px;
             border-radius: 50%;
-            background-color: $blue;
             display: block;
           }
           margin-bottom:60px;
@@ -1123,5 +1133,29 @@ section#section06{
       line-height: 1.6;
       margin-bottom:30px;
     }
+  }
+}
+.pc-only{
+  display:none;
+}
+.tablet-only{
+  display:none;
+}
+.phone-only{
+  display:none;
+}
+@media #{$pc}{
+  .pc-only{
+    display:block;
+  }
+}
+@media #{$tablet}{
+  .tablet-only{
+    display:block;
+  }
+}
+@media #{$phone}{
+  .phone-only{
+    display:block;
   }
 }
