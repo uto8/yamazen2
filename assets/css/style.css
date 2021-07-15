@@ -164,7 +164,7 @@ section#section02 {
 section#section02 .contact_btn {
   width: 70px;
   position: fixed;
-  top: 100px;
+  top: 500px;
   right: 0;
   -webkit-transform: translateY(-50px);
           transform: translateY(-50px);
@@ -182,8 +182,7 @@ section#section02 .box .content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
-  max-width: 980px;
+  width: 70%;
   margin: 0 auto;
   margin-bottom: 80px;
   -webkit-transform: translateY(-50px);
@@ -224,8 +223,7 @@ section#section02 .box2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
-  max-width: 980px;
+  width: 70%;
   margin: 0 auto;
 }
 section#section02 .box2 .img {
@@ -302,8 +300,7 @@ section#section03 .content {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 100%;
-  max-width: 1080px;
+  width: 70%;
   margin: 0 auto 95px auto;
 }
 section#section03 .content .img {
@@ -319,14 +316,8 @@ section#section03 .content .sentence {
 section#section03 .content .sentence h5 {
   margin-bottom: 25px;
 }
-section#section03 .content .sentence h5 .img1 {
-  max-width: 240px;
-}
-section#section03 .content .sentence h5 .img2 {
-  max-width: 212px;
-}
-section#section03 .content .sentence h5 .img3 {
-  max-width: 265px;
+section#section03 .content .sentence h5 img {
+  width: 50%;
 }
 section#section03 .content .sentence p {
   padding-left: 40px;
@@ -411,17 +402,16 @@ section#section04 .title p {
   margin-bottom: 100px;
 }
 section#section04 .box {
-  width: 100%;
-  max-width: 980px;
+  width: 70%;
   margin: 0 auto;
 }
 section#section04 .box .content h5 {
-  color: #282655;
-  border-left: 2px solid #282655;
-  font-size: 28px;
   padding-left: 20px;
   font-weight: bold;
   margin-bottom: 40px;
+}
+section#section04 .box .content h5 img {
+  width: 100%;
 }
 section#section04 .box .content p {
   margin: 0 auto;
@@ -440,7 +430,7 @@ section#section04 .box .content table th {
   font-weight: lighter;
 }
 section#section04 .box .content table th.num {
-  background-color: #9a9a9a;
+  background-color: #282655;
   color: white;
   text-align: center;
   font-weight: bold;
@@ -473,7 +463,6 @@ section#section04 .box h2 {
 }
 section#section04 .box .content2 {
   width: 100%;
-  max-width: 980px;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -515,8 +504,198 @@ section#section05 span {
   width: 70px;
   display: block;
   background-color: #282655;
+  margin-bottom: 50px;
+}
+section#section05 .img-box {
+  max-width: 1180px;
+  width: 100%;
+  margin: 0 auto;
+}
+section#section05 .img-box img {
+  width: 100%;
 }
 
+section#section07 {
+  background-image: url(../images/section07-bg.png);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 15px;
+}
+section#section07 junl-list {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 867px;
+  width: 100%;
+  margin: 0 auto 30px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+section#section07 junl-list p {
+  border-left: white 2px solid;
+  padding: 5px 20px;
+  font-size: 18px;
+  margin-bottom: 7px;
+}
+section#section07 junl-list li:last-child {
+  border-right: white 2px;
+}
+section#section07 .content-box .content {
+  background-color: white;
+  max-width: 1080px;
+  width: 100%;
+  margin: 0 auto 30px;
+  padding: 42px 50px 38px 50px;
+}
+section#section07 .content-box .content h2 {
+  color: #282655;
+  margin-bottom: 35px;
+  font-size: 28px;
+  font-weight: bold;
+  padding-left: 20px;
+  border-left: #282655 3px solid;
+}
+section#section07 .content-box .content .item {
+  max-width: 980px;
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+section#section07 .content-box .content .item .img {
+  padding: 0 30px;
+  width: 50%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+section#section07 .content-box .content .item .img iframe {
+  width: 100%;
+  height: 300px;
+}
+section#section07 .content-box .content .item .img a {
+  color: #a3a3a3;
+  margin-bottom: 15px;
+}
+section#section07 .content-box .content .item .img .junl {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+section#section07 .content-box .content .item .img .junl span {
+  padding: 4px 15px;
+  font-size: 16px;
+  margin-right: 8px;
+  border-radius: 5px;
+  margin-bottom: 7px;
+}
+section#section07 .content-box .content .item .img .junl span.junl1 {
+  background-color: #5faee6;
+}
+section#section07 .content-box .content .item .img .junl span.junl2 {
+  background-color: #edd825;
+}
+section#section07 .content-box .content .item .img .junl span.junl3 {
+  background-color: #e58850;
+}
+section#section07 .content-box .content .item .img .junl span.junl4 {
+  background-color: #536dc5;
+}
+section#section07 .content-box .content .item .img .junl span.junl5 {
+  background-color: #53bdc5;
+}
+section#section07 .content-box .content .item .img .junl span.junl6 {
+  background-color: #55c37c;
+}
+section#section07 .content-box .content .item .img .junl span.junl7 {
+  background-color: #a9ce52;
+}
+section#section07 .content-box .content .item .img .junl span.junl8 {
+  background-color: #f57474;
+}
+section#section07 .content-box .content .item .img .junl span.junl9 {
+  background-color: #e74242;
+}
+section#section07 .content-box .content .item .img .junl span.junl10 {
+  background-color: #da708d;
+}
+section#section07 .content-box .content .item .img .junl span.junl11 {
+  background-color: #9e83ca;
+}
+section#section07 .content-box .content .item .description {
+  width: 50%;
+}
+section#section07 .content-box .content .item .description h5 {
+  margin-bottom: 18px;
+  font-size: 20px;
+  color: #282655;
+  font-weight: bold;
+}
+section#section07 .content-box .content .item .description p {
+  line-height: 1.4;
+  font-size: 16px;
+}
+section#section07 .content-box .content .item .description ul {
+  color: black;
+  font-size: 16px;
+  line-height: 1.4;
+  list-style: disc;
+}
+section#section07 .content-box .content .item .description ul li {
+  color: black;
+}
+section#section07 .content-box .content .item .description ul.list-num {
+  list-style-type: none;
+  padding-left: 0;
+}
+section#section07 .content-box .hidden1.closed {
+  display: none;
+}
+section#section07 .content-box .hidden1.opened {
+  display: block;
+}
+section#section07 .content-box .hidden2.closed {
+  display: none;
+}
+section#section07 .content-box .hidden2.opened {
+  display: block;
+}
+section#section07 .content-box .btn {
+  text-align: center;
+  width: 100%;
+}
+section#section07 .content-box .btn button.btn-more {
+  background-color: transparent;
+  border: none;
+}
+section#section07 .content-box .btn button.btn-more img {
+  width: 85px;
+}
+section#section07 .content-box .btn button.btn-more.opened .open {
+  display: none;
+}
+section#section07 .content-box .btn button.btn-more.opened .closing {
+  display: block;
+}
+section#section07 .content-box .btn button.btn-more.closed .open {
+  display: block;
+}
+section#section07 .content-box .btn button.btn-more.closed .closing {
+  display: none;
+  opacity: 1;
+}
+
+section#section06 {
+  padding: 95px 15px 130px;
+}
 section#section06 h2 {
   font-family: "ヒラギノ明朝 Pro";
   font-size: 32px;
@@ -589,7 +768,7 @@ section#section06 form .form-group label {
   section#section02 .contact_btn {
     width: 50px;
     position: fixed;
-    top: 100px;
+    top: 300px;
     right: 0;
     -webkit-transform: translateY(-50px);
             transform: translateY(-50px);
@@ -764,8 +943,7 @@ section#section06 form .form-group label {
         flex-wrap: wrap;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    width: 100%;
-    max-width: 985px;
+    width: 80%;
     margin: auto;
   }
   section#section03 .content2 .item {
@@ -825,12 +1003,13 @@ section#section06 form .form-group label {
     margin: 0 auto;
   }
   section#section04 .box .content h5 {
-    color: #282655;
-    border-left: 2px solid #282655;
-    font-size: 20px;
     padding-left: 20px;
     font-weight: bold;
     margin-bottom: 40px;
+    overflow: hidden;
+  }
+  section#section04 .box .content h5 img {
+    width: 100%;
   }
   section#section04 .box .content p {
     margin: 0 auto;
@@ -848,7 +1027,6 @@ section#section06 form .form-group label {
     font-weight: lighter;
   }
   section#section04 .box .content table th.num {
-    background-color: #9a9a9a;
     color: white;
     text-align: center;
     font-weight: bold;
@@ -918,6 +1096,132 @@ section#section06 form .form-group label {
     width: 70px;
     display: block;
     background-color: #282655;
+    margin-bottom: 50px;
+  }
+  section#section05 .img-box {
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  section#section05 .img-box img {
+    width: 100%;
+  }
+
+  section#section07 {
+    padding: 50px 30px;
+  }
+  section#section07 junl-list {
+    max-width: 867px;
+    margin: 0 auto 30px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  section#section07 junl-list p {
+    border-left: white 2px solid;
+    padding: 5px 20px;
+    font-size: 18px;
+    margin-bottom: 7px;
+  }
+  section#section07 junl-list li:last-child {
+    border-right: white 2px;
+  }
+  section#section07 .content-box .content {
+    background-color: white;
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto 30px;
+    padding: 42px 50px 38px 50px;
+  }
+  section#section07 .content-box .content h2 {
+    color: #282655;
+    margin-bottom: 35px;
+    font-size: 23px;
+    font-weight: bold;
+    padding-left: 20px;
+    border-left: #282655 3px solid;
+  }
+  section#section07 .content-box .content .item {
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+  section#section07 .content-box .content .item .img {
+    padding: 0 30px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  section#section07 .content-box .content .item .img img {
+    width: 100%;
+    margin-bottom: 7px;
+  }
+  section#section07 .content-box .content .item .img a {
+    color: #a3a3a3;
+    margin-bottom: 15px;
+  }
+  section#section07 .content-box .content .item .img .junl {
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  section#section07 .content-box .content .item .img .junl span {
+    padding: 4px 15px;
+    font-size: 16px;
+    margin-right: 8px;
+    border-radius: 5px;
+    margin-bottom: 7px;
+  }
+  section#section07 .content-box .content .item .description {
+    width: 100%;
+    padding: 30px;
+  }
+  section#section07 .content-box .content .item .description h5 {
+    margin-bottom: 18px;
+    font-size: 18px;
+    color: #282655;
+    font-weight: bold;
+  }
+  section#section07 .content-box .content .item .description p {
+    line-height: 1.4;
+    font-size: 14px;
+  }
+  section#section07 .content-box .content .item .description ul {
+    color: black;
+    font-size: 16px;
+    line-height: 1.4;
+    display: block;
+    list-style: disc;
+  }
+  section#section07 .content-box .content .item .description ul li {
+    display: block;
+  }
+  section#section07 .content-box .btn {
+    text-align: center;
+    width: 100%;
+  }
+  section#section07 .content-box .btn button.btn-more {
+    background-color: transparent;
+    border: none;
+  }
+  section#section07 .content-box .btn button.btn-more img {
+    width: 55px;
+  }
+  section#section07 .content-box .btn button.btn-more.opened .open {
+    display: none;
+  }
+  section#section07 .content-box .btn button.btn-more.opened .close {
+    display: block;
+  }
+  section#section07 .content-box .btn button.btn-more.closed .open {
+    display: block;
+  }
+  section#section07 .content-box .btn button.btn-more.closed .close {
+    display: none;
+    opacity: 1;
   }
 
   section#section06 h2 {
@@ -987,7 +1291,7 @@ section#section06 form .form-group label {
   section#section02 .contact_btn {
     width: 40px;
     position: fixed;
-    top: 100px;
+    top: 300px;
     right: 0;
     -webkit-transform: translateY(-70px);
             transform: translateY(-70px);
@@ -1225,12 +1529,13 @@ section#section06 form .form-group label {
     margin: 0 auto;
   }
   section#section04 .box .content h5 {
-    color: #282655;
-    border-left: 2px solid #282655;
-    font-size: 17px;
     padding-left: 20px;
     font-weight: bold;
     margin-bottom: 40px;
+    overflow: hidden;
+  }
+  section#section04 .box .content h5 img {
+    width: 200%;
   }
   section#section04 .box .content p {
     margin: 0 auto;
@@ -1248,7 +1553,6 @@ section#section06 form .form-group label {
     font-weight: lighter;
   }
   section#section04 .box .content table th.num {
-    background-color: #9a9a9a;
     color: white;
     font-size: 13px;
     text-align: center;
@@ -1309,6 +1613,130 @@ section#section06 form .form-group label {
     width: 70px;
     display: block;
     background-color: #282655;
+    margin-bottom: 50px;
+  }
+  section#section05 .img-box {
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  section#section05 .img-box img {
+    width: 100%;
+  }
+
+  section#section07 {
+    padding: 30px 15px;
+  }
+  section#section07 junl-list {
+    max-width: 867px;
+    margin: 0 auto 30px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  section#section07 junl-list p {
+    border-left: white 2px solid;
+    padding: 3px 6px;
+    font-size: 15px;
+    margin-bottom: 7px;
+  }
+  section#section07 junl-list li:last-child {
+    border-right: white 2px;
+  }
+  section#section07 .content-box .content {
+    margin: 0 auto 30px;
+    padding: 42px 20px 38px 20px;
+  }
+  section#section07 .content-box .content h2 {
+    color: #282655;
+    margin-bottom: 35px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+    border-left: #282655 3px solid;
+  }
+  section#section07 .content-box .content .item {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+  section#section07 .content-box .content .item .img {
+    padding: 0;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  section#section07 .content-box .content .item .img img {
+    width: 100%;
+    margin-bottom: 7px;
+  }
+  section#section07 .content-box .content .item .img a {
+    color: #a3a3a3;
+    margin-bottom: 15px;
+  }
+  section#section07 .content-box .content .item .img .junl {
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  section#section07 .content-box .content .item .img .junl span {
+    padding: 2px 18px;
+    font-size: 14px;
+    margin-right: 8px;
+    border-radius: 5px;
+    margin-bottom: 7px;
+  }
+  section#section07 .content-box .content .item .description {
+    width: 100%;
+    padding: 0px;
+  }
+  section#section07 .content-box .content .item .description h5 {
+    margin-bottom: 16px;
+    font-size: 16px;
+    color: #282655;
+    font-weight: bold;
+  }
+  section#section07 .content-box .content .item .description p {
+    line-height: 1.4;
+    font-size: 14px;
+  }
+  section#section07 .content-box .content .item .description ul {
+    color: black;
+    font-size: 14px;
+    line-height: 1.4;
+    display: block;
+    list-style: disc;
+    padding-left: 15px;
+  }
+  section#section07 .content-box .content .item .description ul li {
+    display: block;
+  }
+  section#section07 .content-box .btn {
+    text-align: center;
+    width: 100%;
+  }
+  section#section07 .content-box .btn button.btn-more {
+    background-color: transparent;
+    border: none;
+  }
+  section#section07 .content-box .btn button.btn-more img {
+    width: 65px;
+  }
+  section#section07 .content-box .btn button.btn-more.opened .open {
+    display: none;
+  }
+  section#section07 .content-box .btn button.btn-more.opened .close {
+    display: block;
+  }
+  section#section07 .content-box .btn button.btn-more.closed .open {
+    display: block;
+  }
+  section#section07 .content-box .btn button.btn-more.closed .close {
+    display: none;
+    opacity: 1;
   }
 
   section#section06 h2 {
