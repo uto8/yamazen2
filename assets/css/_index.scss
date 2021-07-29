@@ -9,41 +9,37 @@ html,body{
   width:100%;
   padding:0;
   margin:0;
-  font-family:"ヒラギノ角ゴシック";
 }
 .triangle3{
   width:0;
   height: 0;
   border-left: 30px solid transparent;
   border-right: 30px solid transparent;
-  border-top: 30px solid white;
+  border-top: 30px solid #fff;
   margin:0 auto;
   background-color:#212121 ;
   transform: translateY(-130px);
 }
 
 section#section01{
-  background-image:url(../images/section01-bg.png);
+  background-image:url(../images/section01-bg.jpg);
   background-size:cover;
-  padding:15px 30px;
-  h1{
-    width:210px;
-    margin-bottom:75px;
-    img{
-      width:100%;
-    }
-  }
+  padding:207px 15px 30px;
   .sentence{
-    color:white;
+    color:#fff;
     padding-left:143px;
     margin-bottom:200px;
-    font-family:"ヒラギノ明朝 Pro";
+    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
     h3{
       font-size:32px;
       margin-bottom:30px;
+      text-shadow:2px 4px 8px black;
+      font-weight:bold;
     }
     p{
       font-size:16px;
+      text-shadow:2px 4px 8px black;
+      font-weight:bold;
     }
   }
 }
@@ -53,7 +49,7 @@ section#section02{
   .contact_btn{
     width:70px;
     position:fixed;
-    top:500px;
+    top:300px;
     right:0;
     transform:translateY(-50px);
     background:none;
@@ -78,22 +74,23 @@ section#section02{
         border:2px solid $blue;
         .title{
           background-color:$blue;
-          color:white;
+          color:#fff;
           padding-top:30px;
           padding-bottom:15px;
           padding-right:5px;
           padding-left:5px;
           margin-bottom:25px;
           text-align: center;
-          font-family:"ヒラギノ明朝 Pro";
           h5{
+            font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
             margin:0;
             font-size: 20px;
+            font-weight:bold;
           }
         }
         .sentence{
           padding:0 30px;
-          font-family:"ヒラギノ角ゴシック";
+          font-family: "ヒラギノ角ゴシック", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
           img{
             width:100%;
             margin-bottom: 15px;
@@ -119,13 +116,13 @@ section#section02{
     .sentence{
       width:50%;
       padding:35px 20px 50px 50px;
-      font-family:"ヒラギノ角ゴシック";
+      font-family: "ヒラギノ角ゴシック", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
       h5{
         font-size: 28px;
         color:$blue;
         margin-top:0;
         margin-bottom:15px;
-        font-family: "ヒラギノ角ゴシックz";
+        font-family: "ヒラギノ角ゴシック", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
       }
       span{
         background-color:$blue;
@@ -137,6 +134,7 @@ section#section02{
       p{
         font-size: 16px;
         line-height: 1.6;
+        font-family: "ヒラギノ角ゴシック", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
       }
     }
   }
@@ -146,9 +144,8 @@ section#section03{
   background-image:url(../images/section03-bg.png);
   background-size: cover;
   background-position:bottom;
-  color:white;
+  color:#fff;
   text-align: center;
-  font-family:"ヒラギノ角ゴシック";
   .inner{
     background-color: #212121;
     width:90%;
@@ -158,16 +155,17 @@ section#section03{
   }
   .title{
     margin-bottom:95px;
-    font-family:"ヒラギノ明朝 Pro";
+    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
   }
   h2{
     font-size:32px;
-    margin-bottom:30px
+    margin-bottom:30px;
+    font-weight:bold;
   }
   span{
     width:70px;
     height:2px;
-    background-color:white;
+    background-color:#fff;
     margin:auto;
     display: block;
     margin-bottom:30px;
@@ -207,7 +205,7 @@ section#section03{
     margin-bottom:15px;
   }
   span{
-    background-color:white;
+    background-color:#fff;
     height:2px;
     margin:auto auto;
     width:70px;
@@ -221,7 +219,7 @@ section#section03{
     width:100%;
     margin:auto;
     .item{
-      border:2px solid white;
+      border:2px solid #fff;
       width:31%;
       margin:0 auto 30px auto;
       border-radius:5px;
@@ -231,7 +229,7 @@ section#section03{
       title{
         display: block;
         font-size: 20px;
-        border-bottom:3px white solid;
+        border-bottom:3px #fff solid;
         padding:20px 0;
         box-sizing:border-box;
         margin-bottom:20px;
@@ -252,12 +250,13 @@ section#section04{
   font-family:"ヒラギノ角ゴシック";
   .title{
     text-align: center;
-    font-family:"ヒラギノ明朝 Pro";
+    font-family: "ヒラギノ明朝 Pro", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
     h2{
       color:$blue;
       font-size: 32px;
       line-height:1.7;
       padding-bottom:20px;
+      font-weight:bold;
     }
     span{
       height:2px;
@@ -299,12 +298,22 @@ section#section04{
         color:black;
         th{
           font-weight:lighter;
+          a{
+            text-decoration: underline;
+          }
         }
         th.num{
           background-color:$blue;
-          color:white;
+          color:#fff;
           text-align: center;
           font-weight:bold;
+        }
+      }
+      .attention{
+        margin-bottom: 60px;
+        p{
+          font-weight: bold;
+          font-size: 16px;
         }
       }
       .explain{
@@ -352,18 +361,115 @@ section#section04{
         }
       }
     }
+    .content3{
+      margin-top: 30px;
+      .item{
+        border-bottom: 1px solid #dee2e6;
+        padding: 10px 15px;
+        box-sizing: border-box;
+        background: #282655;
+        color: #fff;
+        font-weight: bold;
+        font-size: 16px;
+      }
+      .table{
+        display: table;
+        border-collapse:  collapse;
+        border: 1px solid #dee2e6;
+        margin-bottom: 0;
+        .content,.package_detail{
+          display: table-cell;
+          font-size: 16px;
+        }//content
+        .content{
+          border-right: 1px solid #dee2e6;
+          div{
+            padding: 10px 15px;
+            box-sizing: border-box;
+          }
+          .package_name{
+            font-weight: bold;
+          }
+          .price{
+            .red{
+              color: red;
+              font-weight: bold;
+            }
+          }
+        }//content
+        .package_detail{
+          ul{
+            li{
+              padding: 10px 15px;
+              border-bottom: 1px solid #dee2e6;
+              box-sizing: border-box;
+              &:last-child{
+                border-bottom: none;
+              }
+              &:nth-child(even){
+                background: #f4f4f4;
+              }
+            }
+          }
+        }//.package_detail
+      }
+      figure{
+        border: 1px solid #dee2e6;
+        text-align: center;
+        img{
+          max-width: 980px;
+          margin: 0 auto;
+        }
+        span{
+          font-size: 14px;
+          color: red;
+          display: block;
+          margin: 10px 0;
+        }
+      }
+    }//content03
+    .contact_ascent{
+      text-align: center;
+      .attention{
+        // background: red;
+        padding: 15px 0;
+        box-sizing: border-box;
+        p{
+          color: red;
+          font-weight: bold;
+          font-size: 16px;
+          margin-bottom: 0;
+        }
+      }//attention
+      .btn{
+        margin-top: 20px;
+        a{
+          color: #fff;
+          font-weight: bold;
+          font-size: 16px;
+          padding: 20px 30px;
+          background: #282655;
+          box-sizing: border-box;
+          border-radius: 20px;
+          &:hover{
+            opacity: 0.85;
+          }
+        }
+      }
+    }
   }
 }
 section#section05{
   padding:96px 15px;
-  font-family:"ヒラギノ角ゴシック";
+  font-family: "ヒラギノ角ゴシック", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
   h2{
     color:$blue;
     text-align: center;
-    font-family:"ヒラギノ明朝 Pro";
+    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
     font-size:32px;
     line-height:1.7;
     margin-bottom:35px;
+    font-weight:bold;
   }
   span{
     height:2px;
@@ -383,32 +489,35 @@ section#section05{
   }
 }
 section#section07{
-  background-image:url(../images/section07-bg.png);
   background-position:bottom;
+  background-color:#141a3a;
   background-size: cover;
   background-repeat:no-repeat;
-    padding:50px 15px;
-  junl-list{
-    color:white;
+  padding:50px 15px;
+  position:relative;
+  .junl-list{
+    color:#fff;
     display: flex;
-    max-width:867px;
+    max-width:900px;
     width:100%;
     margin:0 auto 30px;
-    flex-wrap:wrap;
-    justify-content: center;
     p{
-      border-left:white 2px solid;
-      padding:5px 20px;
       font-size: 18px;
-      margin-bottom:7px;
-    }
-    li:last-child{
-      border-right:white 2px;
+      text-align: center;
+      span{
+        border-left:#fff 2px solid;
+        padding:5px 20px;
+        margin-bottom:7px;
+        line-height:2;
+      }
+      span.borderRight{
+        border-right:#fff 2px solid;
+      }
     }
   }
   .content-box{
     .content{
-      background-color: white;
+      background-color: #fff;
       max-width:1080px;
       width:100%;
       margin:0 auto 30px;
@@ -427,7 +536,7 @@ section#section07{
         margin:0 auto;
         display:flex;
         .img{
-          padding:0 30px;
+          padding:0 30px 0 0;
           width:50%;
           box-sizing:border-box;
           iframe{
@@ -436,10 +545,19 @@ section#section07{
           }
           a{
             color:#a3a3a3;
-            margin-bottom:15px;
+            margin-bottom:18px;
+            display:block;
+            font-size: 14px;
+            &.gray{
+              margin-bottom: 18px;
+              display: block;
+            }
+          }
+          .thumb a{
+            margin-bottom: 0;
           }
           .junl{
-            color:white;
+            color:#fff;
             display:flex;
             flex-wrap:wrap;
             span{
@@ -529,6 +647,7 @@ section#section07{
       width:100%;
       button.btn-more{
         background-color: transparent;
+        outline:none;
         border:none;
         img{
           width:85px;
@@ -555,15 +674,17 @@ section#section07{
   }
 }
 section#section06{
+  // display:none;
   padding:95px 15px 130px;
   h2{
-    font-family:"ヒラギノ明朝 Pro";
+  font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
     font-size:32px;
+    font-weight:bold;
     text-align: center;
     color:$blue;
     margin-bottom:30px;
   }
-  span{
+  span.border_bottom{
     height:2px;
     width:70px;
     display:block;
@@ -577,37 +698,26 @@ section#section06{
     line-height: 1.6;
     margin-bottom:40px;
   }
-  form{
-    width:80%;
-    margin:0 auto;
-    border:2px solid #e6e6e6;
-    padding:0 30px;
+  .contact_box{
+    max-width: 980px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 3px 3px #dedfe2;
+    border-radius: 10px;
+    padding: 35px 50px;
+    margin-bottom: 25px;
     box-sizing: border-box;
-    .form-group{
-      width:100%;
-      padding:20px 0;
-      border-top:1px solid #e6e6e6;
-      label{
-        box-sizing: border-box;
-      }
-    }
+    background: #fff;
   }
 }
 
 @media #{$tablet}{
   section#section01{
-    background-image:url(../images/section01-bg.png);
+    background-image:url(../images/section01-bg.jpg);
     background-size:cover;
-    padding:15px 30px;
-    h1{
-      width:150px;
-      margin-bottom:75px;
-      img{
-        width:100%;
-      }
-    }
+    padding:157px 15px 30px;
+
     .sentence{
-      color:white;
+      color:#fff;
       padding-left:73px;
       margin-bottom:100px;
       h3{
@@ -648,7 +758,7 @@ section#section06{
           border:2px solid $blue;
           .title{
             background-color:$blue;
-            color:white;
+            color:#fff;
             padding-top:20px;
             padding-bottom:10px;
             padding-right:3px;
@@ -725,7 +835,7 @@ section#section06{
     span{
       width:70px;
       height:2px;
-      background-color:white;
+      background-color:#fff;
       margin:auto;
       display: block;
       margin-bottom:30px;
@@ -772,7 +882,7 @@ section#section06{
       margin-bottom:15px;
     }
     span{
-      background-color:white;
+      background-color:#fff;
       height:2px;
       margin:auto auto;
       width:70px;
@@ -794,7 +904,7 @@ section#section06{
         title{
           display: block;
           font-size: 20px;
-          border-bottom:3px white solid;
+          border-bottom:3px #fff solid;
           padding:20px 0;
           box-sizing:border-box;
           margin-bottom:20px;
@@ -862,7 +972,7 @@ section#section06{
             font-weight:lighter;
           }
           th.num{
-            color:white;
+            color:#fff;
             text-align: center;
             font-weight:bold;
           }
@@ -909,6 +1019,7 @@ section#section06{
           }
         }
       }
+
     }
   }
   section#section05{
@@ -941,23 +1052,26 @@ section#section06{
   }
   section#section07{
       padding:50px 30px;
-    junl-list{
+    .junl-list{
       max-width:867px;
       margin:0 auto 30px;
       flex-wrap:wrap;
       p{
-        border-left:white 2px solid;
         padding:5px 20px;
         font-size: 18px;
         margin-bottom:7px;
+        span{
+          margin-bottom:8px;
+          line-height:2;
+        }
       }
       li:last-child{
-        border-right:white 2px;
+        border-right:#fff 2px;
       }
     }
     .content-box{
       .content{
-        background-color: white;
+        background-color: #fff;
         max-width:1080px;
         width:100%;
         margin:0 auto 30px;
@@ -988,7 +1102,7 @@ section#section06{
               margin-bottom:15px;
             }
             .junl{
-              color:white;
+              color:#fff;
               display:flex;
               flex-wrap:wrap;
               span{
@@ -1017,10 +1131,8 @@ section#section06{
               color:black;
               font-size: 16px;
               line-height:1.4;
-              display: block;
               list-style: disc;
               li{
-                display:block;
               }
             }
           }
@@ -1064,7 +1176,7 @@ section#section06{
       color:$blue;
       margin-bottom:20px;
     }
-    span{
+    span.border_bottom{
       height:2px;
       width:70px;
       display:block;
@@ -1087,37 +1199,33 @@ section#section06{
     height: 0;
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
-    border-top: 15px solid white;
+    border-top: 15px solid #fff;
     margin:0 auto;
     background-color:#212121 ;
-    transform: translateY(-130px);
+    transform: translateY(-40px);
   }
   section#section01{
-    padding:15px 30px;
-    h1{
-      width:100px;
-      margin-bottom:25px;
-      img{
-        width:100%;
-      }
-    }
+    padding:130px 15px 15px;
+    background-image:url(../images/section01-bg2.png);
+    background-position: bottom;
     .sentence{
       padding-left:0px;
       margin-bottom:30px;
-      br{
-        display:none;
-      }
       h3{
-        font-size:18px;
-        margin-bottom:20px;
+        font-size:22px;
+        margin-bottom:45px;
+        line-height:1.5;
       }
       p{
-        font-size:14px;
+        font-size:16px;
+        br{
+          display:none;
+        }
       }
     }
   }
   section#section02{
-    padding-bottom:100px;
+    padding-bottom:40px;
     position:relative;
     .contact_btn{
       width:40px;
@@ -1156,12 +1264,15 @@ section#section06{
           }
           .sentence{
             padding:0 15px;
+            text-align: center;
             img{
-              width:100%;
+              width:50%;
+              margin:auto;
               margin-bottom: 15px;
             }
             p{
               font-size: 14px;
+              text-align: left;
             }
           }
         }
@@ -1210,25 +1321,27 @@ section#section06{
     background-image:none;
     .inner{
       width:100%;
+      padding:40px 15px;
     }
     .title{
-      margin-bottom:15px;
+      margin-bottom:25px;
     }
     h2{
       font-size:20px;
-      margin-bottom:25px
+      margin-bottom:25px;
     }
     span{
       width:70px;
       height:2px;
-      background-color:white;
+      background-color:#fff;
       margin:auto;
       display: block;
       margin-bottom:30px;
     }
     p{
       font-size:14px;
-      margin-bottom:35px;
+      margin-bottom:15px;
+      text-align: left;
       br{
         display:none;
       }
@@ -1239,8 +1352,8 @@ section#section06{
       width:100%;
       margin:0 auto 45px auto;
       .img{
-        width:80%;
-        margin:0 auto 40px auto;
+        width:100%;
+        margin:0 auto 30px auto;
         img{
           width:100%;
         }
@@ -1255,7 +1368,8 @@ section#section06{
           }
         }
         p{
-          padding-left: 20px;
+          margin-bottom:0px;
+          padding-left: 0px;
           font-size:14px;
         }
       }
@@ -1271,11 +1385,11 @@ section#section06{
       margin-bottom:15px;
     }
     span{
-      background-color:white;
+      background-color:#fff;
       height:2px;
       margin:auto auto;
       width:70px;
-      margin-bottom:62px;
+      margin-bottom:32px;
     }
     .content2{
       display: flex;
@@ -1293,7 +1407,7 @@ section#section06{
         title{
           display: block;
           font-size: 18px;
-          border-bottom:3px white solid;
+          border-bottom:3px #fff solid;
           padding:15px 0;
           box-sizing:border-box;
           margin-bottom:20px;
@@ -1317,7 +1431,7 @@ section#section06{
         color:$blue;
         font-size: 22px;
         line-height:1.7;
-        padding-bottom:20px;
+        padding-bottom:10px;
       }
       span{
         height:2px;
@@ -1330,7 +1444,11 @@ section#section06{
       p{
         font-size:13px;
         line-height:1.6;
-        margin-bottom:60px;
+        margin-bottom:30px;
+        text-align: left;
+        br{
+          display: none;
+        }
       }
     }
     .box{
@@ -1338,17 +1456,18 @@ section#section06{
       margin:0 auto;
       .content{
         h5{
-          padding-left:20px;
+          padding-left:0px;
           font-weight:bold;
-          margin-bottom:40px;
+          margin-bottom:20px;
           overflow: hidden;
           img{
-            width:200%;
+            width:180%;
           }
         }
         p{
           margin:0 auto;
           width:90%;
+          font-size:14px;
           margin-bottom: 10px;
         }
         table{
@@ -1361,7 +1480,7 @@ section#section06{
             font-weight:lighter;
           }
           th.num{
-            color:white;
+            color:#fff;
             font-size: 13px;
             text-align: center;
             font-weight:bold;
@@ -1396,12 +1515,19 @@ section#section06{
         }
         .sentence{
           width:100%;
-          padding:15px 20px;
+          padding:15px 0px;
           p{
             font-size:14px;
           }
           img{
             width:100%;
+          }
+        }
+      }
+      .contact_ascent{
+        .btn{
+          a{
+            font-size: 14px;
           }
         }
       }
@@ -1433,18 +1559,69 @@ section#section06{
   }
   section#section07{
       padding:30px 15px;
-    junl-list{
+    .junl-list{
       max-width:867px;
       margin:0 auto 30px;
       flex-wrap:wrap;
       p{
-        border-left:white 2px solid;
-        padding:3px 6px;
-        font-size: 15px;
-        margin-bottom:7px;
+        font-size: 13px;
+        text-align: left;
+        display: flex;
+        flex-wrap: wrap;
+        span{
+          padding: 5px 20px;
+          line-height: 2.5;
+          display: inline-block;
+          text-align: center;
+          background: #fff;
+          color: #000;
+          margin-right: 5px;
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+          border-radius: 5px;
+          border: none;
+          color: #fff;
+          font-weight: bold;
+        }
       }
       li:last-child{
-        border-right:white 2px;
+        border-right:#fff 2px;
+      }
+      span.junl1{
+        background-color:#5faee6;
+      }
+      span.junl2{
+        background-color:#edd825
+      }
+      span.junl3{
+        background-color:#e58850;
+      }
+      span.junl4{
+        background-color:#536dc5;
+      }
+      span.junl5{
+        background-color:#53bdc5;
+      }
+      span.junl6{
+        background-color:#55c37c;
+      }
+      span.junl7{
+        background-color:#a9ce52;
+      }
+      span.junl8{
+        background-color: #f57474;
+      }
+      span.junl9{
+        background-color:#e74242;
+      }
+      span.junl10{
+        background-color:#da708d;
+      }
+      span.junl11{
+        background-color:#9e83ca;
+      }
+      span.junl0{
+        color:black;
       }
     }
     .content-box{
@@ -1468,16 +1645,15 @@ section#section06{
             width:100%;
             box-sizing:border-box;
             margin-bottom:20px;
-            img{
-              width:100%;
-              margin-bottom:7px;
+            iframe{
+              height:300px;
             }
             a{
               color:#a3a3a3;
               margin-bottom:15px;
             }
             .junl{
-              color:white;
+              color:#fff;
               display:flex;
               flex-wrap:wrap;
               span{
@@ -1501,16 +1677,17 @@ section#section06{
             p{
               line-height:1.4;
               font-size:14px;
+              br{
+                display:none;
+              }
             }
             ul{
               color:black;
               font-size: 14px;
               line-height:1.4;
-              display: block;
               list-style: disc;
               padding-left:15px;
               li{
-                display:block;
               }
             }
           }
@@ -1551,7 +1728,7 @@ section#section06{
       font-size:22px;
       margin-bottom:15px;
     }
-    span{
+    span.border_bottom{
       height:2px;
       width:70px;
       display:block;
@@ -1580,14 +1757,62 @@ section#section06{
   .pc-only{
     display:block;
   }
+  .borderRightPc{
+    border-right:2px #fff solid;
+  }
 }
 @media #{$tablet}{
   .tablet-only{
     display:block;
+  }
+  .borderRightTablet{
+    border-right:2px #fff solid;
   }
 }
 @media #{$phone}{
   .phone-only{
     display:block;
   }
+  .borderRightPhone{
+    border-right:#fff 2px solid;
+  }
+}
+
+/*********************/
+/***Form resset css***/
+/*********************/
+
+.aptoenq_cusinfo .aptoenq_cusinfo_subj{
+  font-size: 18px;
+}
+
+.aptoenq_q.aptoenq_l {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.aptoenq_q{
+  padding: 13px 20px;
+}
+
+.aptoenq_a{
+  padding: 10px 0;
+}
+
+.aptoenq_question textarea, #aptoenqform textarea{
+  width: 100%;
+  margin:0px auto;
+  padding: 6px 8px !important;
+  /* background-color: #F9FAFB; */
+  outline: none;
+  border:1px solid #CCC;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+  box-sizing: border-box; /* パディングとボーダーを幅と高さに含める */
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }

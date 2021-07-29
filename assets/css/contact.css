@@ -1,0 +1,245 @@
+@charset "utf-8";
+.aptoenq {
+  font-size: 12px;
+}
+.aptoenq_necessary {
+  text-align: left;
+  margin-left: 16px;
+  font-size: 12px;
+  text-indent: 0px;
+}
+.aptoenq_question, .aptoenq_cusinfo {
+  color: black;
+  text-indent: 0px;
+}
+.aptoenq_question input {
+  display: inline;
+  width: auto;
+}
+.aptoenq_question label {
+  font-weight: normal;
+}
+.aptoenq_question input[type="text"] {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #AAA #CCC #CCC #AAA;
+  padding: 2px !important;
+  background-color: white;
+  text-align: left;
+  font-family: MS UI Gothic;
+  width: auto;
+}
+.aptoenq_question input[disabled] {
+  background-color: #F0F0F0;
+}
+.aptoenq_question input[type="checkbox"] {
+  margin: 3px 3px 3px 4px !important;
+  border-style: none;
+  width: auto;
+}
+.aptoenq_question input[type="radio"] {
+  margin: 3px 3px 0px 5px !important;
+  border-style: none;
+  width: auto;
+}
+.aptoenq_question textarea, #aptoenqform textarea {
+  background-color: white;
+  width: auto;
+  font-family: MS UI Gothic;
+}
+.aptoenq_question label {
+  width: auto;
+  display: inline;
+}
+.aptoenq_question label span {
+  vertical-align: middle;
+  font-size: 12px;
+}
+.aptoenq_qa {
+//  border: 1px solid;
+  border-width: 1px;
+  border-style: solid;
+  font-size: 12px;
+  line-height: 130%;
+  margin: 16px;
+}
+.aptoenq_q {
+  padding: 3px;
+}
+.aptoenq_a {
+  padding: 3px;
+}
+.aptoenq_a input[type="text"] {
+  margin: 2px;
+}
+.aptoenq_choice {
+  width: 33%;
+  float: left;
+}
+.aptoenq_br {
+  clear: both;
+}
+.aptoenq_cusinfo {
+  font-size: 12px;
+}
+.aptoenq_cusinfo input, .aptoenq_cusinfo textarea,
+.aptoenq_qa input, .aptoenq_qa textarea {
+  color: black;
+  font-size: 12px;
+}
+.aptoenq_cusinfo .aptoenq_cusinfo_subj {
+  font-weight: bold;
+  text-align: center;
+  margin: 6px;
+  float: none;
+}
+.aptoenq_cusinfo .aptoenq_cusinfo_warn {
+  text-align: left;
+  margin: 6px;
+  float: none;
+}
+.aptoenq_cusinfo .aptoenq_cusinfo_item {
+  width: 35%;
+  text-align: right;
+  padding: 5px;
+  float: left;
+}
+.aptoenq_cusinfo .aptoenq_cusinfo_fm {
+  text-align: left;
+  padding: 5px;
+  float: none;
+}
+.aptoenq_cusinfo .aptoenq_cusinfo_exp {
+  text-align: center;
+  margin: 12px;
+}
+
+.aptoenq_c {
+  text-align: center;
+}
+.aptoenq_l {
+  text-align: left;
+}
+.aptoenq_r {
+  text-align: right;
+}
+.aptoenq_b {
+  font-weight: bold;
+}
+.aptoenq_red {
+  color: red;
+}
+.aptoenq_readonly {
+  color: gray;
+}
+.aptoenq_check {
+  width: 25px;
+  height: 20px;
+  display: inline-block;
+}
+.aptoenq_check_overlimit {
+  display: none;
+}
+.aptoenq_check_blank {
+  width: 25px;
+  height: 20px;
+  margin-top: 3px;
+  display: inline-block;
+}
+.aptoenq_overlimit {
+  padding-top: 4px;
+  color: gray;
+}
+.aptoenq_h130 {
+  line-height: 130%;
+}
+.aptoenq_h160 {
+  line-height: 160%;
+}
+
+#aptoenq_confirm iframe {
+  width: 575px;
+  height: 600px;
+  overflow: hidden;
+  border:none;
+}
+#aptoenq_closebutton {
+  cursor: pointer;
+}
+.aptoenq_popup {
+  border-top: 1px solid #999999;
+  background-color: #FFF;
+  text-align: center;
+  padding: 10px 25px;
+  box-shadow: 3px 3px 5px;
+}
+.aptoenq_popup .aptoenq_popupbutton {
+  margin: 10px;
+}
+.aptoenq_popup div.popupframe {
+  border: 1px solid black;
+  background-color: #F4F4F4;
+}
+.aptoenq_popup_title {
+  font-family: "ヒラギノ角ゴPro W3", "Hiragino Kaku Gothic Pro",Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", Arial, Helvetica, Verdana, sans-serif;
+  border-bottom: 1px solid #FFF;
+  font-weight: bold;
+  font-size: 20px;
+  box-shadow: 3px 3px 5px;
+  background: url(enquete/bg_popup_title.jpg) #d9d9d9 repeat-x left center;
+  padding: 20px 10px 15px 33px;
+}
+.aptoenq_grayout {
+  background-color: black;
+  filter: alpha(opacity=30);
+  -moz-opacity: 0.30;
+  opacity: 0.30;
+}
+
+.aptoenq_msg {
+  font-size: 14px;
+  text-align: left;
+}
+
+.aptoenq_bt_set {
+  width: 400px;
+  margin: 10px auto;
+}
+.aptoenq_bt_send,
+.aptoenq_bt_back {
+  text-align: center;
+}
+.aptoenq_bt_send {
+  width: 200px;
+  float: left;
+  background: url(enquete/bg_bt_send01.gif) no-repeat;
+}
+.aptoenq_bt_back {
+  width: 180px;
+  float: right;
+  background: url(enquete/bg_bt_back01.gif) no-repeat;
+}
+.aptoenq_bt_set button {
+  border: 0px;
+  height: 43px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+.aptoenq_bt_send button {
+  width: 200px;
+  font-size: 14px;
+  line-height: 15px;
+  background: url(enquete/bg_bt_send02.gif) no-repeat right top;
+}
+.aptoenq_bt_back button {
+  width: 180px;
+  font-size: 14px;
+  line-height: 15px;
+  background: url(enquete/bg_bt_back02.gif) no-repeat right top;
+}
+.aptoenq_bt_set :hover {
+  color: #00F;
+}
+.aptoenq_cusinfo_msg {
+  margin-left: 5px;
+}

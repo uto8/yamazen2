@@ -21,3 +21,15 @@ $(".btn-more").on("click",()=>{
     $(".btn-more").addClass("opened").removeClass("closed");
   }
 })
+
+$(window).scroll(function() {
+	let scrollTop = jQuery(window).scrollTop(); // スクロール上部の位置
+	let areaTop = jQuery("#section01").offset().top; // 対象エリアの上部の位置
+	let areaBottom = areaTop + jQuery("#section01").innerHeight(); // 対象エリアの下部の位置
+
+	if (scrollTop < areaBottom) {
+		 $("#header").addClass("view").removeClass("inview");
+	} else {
+		$("#header").removeClass("view").addClass("inview");
+	}
+});
